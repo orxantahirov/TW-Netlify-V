@@ -1,0 +1,655 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Setting Default Font -- Start */
+
+body {
+  font-family: "Didact Gothic", sans-serif;
+}
+body > * {
+  font-family: inherit;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+.fs-2-5 {
+  font-size: 2.5rem;
+}
+.fs-3 {
+  font-size: 3rem;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+/* Setting Default Font -- End */
+
+/* Colors -- Start */
+
+:root {
+  --primary: #4f2d7f;
+  --secondary: #de012f;
+  --gray: #f8f9fa;
+  --lightgray: #e9ecef;
+  --darkgray: #6c757d;
+}
+
+/* Colors -- End */
+
+/* Styling Utils -- Start */
+
+.primary {
+  color: var(--primary);
+}
+.secondary {
+  color: var(--secondary);
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+.secondary-bg {
+  background-color: var(--secondary);
+}
+.gray {
+  color: var(--gray);
+}
+.lightgray {
+  color: var(--lightgray);
+}
+.darkgray {
+  color: var(--darkgray);
+}
+.gray-bg {
+  background-color: var(--gray);
+}
+.lightgray-bg {
+  background-color: var(--lightgray);
+}
+.hover-cc {
+  transition: 0.3s;
+}
+.hover-cc:hover {
+  color: var(--secondary);
+}
+.text-end {
+  text-align: end;
+}
+.title {
+  font-size: 3.4rem;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.default-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 14px 20px;
+  margin: 30px 0;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-w {
+  transition: 0.1s;
+  color: #fff;
+  position: relative;
+  border: 2px solid #fff;
+}
+.btn-w::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: -2;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: 0.3s;
+}
+.btn-w:hover::after {
+  transform: scale(1);
+}
+.btn-w:hover {
+  color: var(--secondary);
+}
+.btn-r {
+  transition: 0.1s;
+  color: var(--secondary);
+  position: relative;
+  border: 2px solid var(--secondary);
+}
+.btn-r::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--secondary);
+  z-index: -2;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: 0.3s;
+}
+.btn-r:hover::after {
+  transform: scale(1);
+}
+.btn-r:hover {
+  color: #fff;
+}
+.menu {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  right: 0;
+  height: 0;
+  overflow: hidden;
+  transition: 0.2s;
+  z-index: 10;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+/*Default Card -- Start */
+.main-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  cursor: pointer;
+  height: 350px;
+  transition: 0.5s;
+}
+
+.main-card:hover .image-wrapper {
+  height: 120px;
+}
+.main-card .image-wrapper {
+  height: 310px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.main-card .text-wrapper {
+  background: #fff;
+  overflow: hidden;
+  transition: 0.3;
+}
+.main-card a {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 5px;
+}
+.main-card a:hover {
+  border-bottom: 1px solid var(--primary);
+}
+.main-card .card-tag {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+.main-card .card-info {
+  font-size: 1.7rem;
+}
+
+/*Default Card -- End */
+/* News Card Styling -- Start */
+.news-card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.news-card .news-card--date {
+  color: var(--darkgray);
+  font-size: 2rem;
+}
+.news-card .news-card--title {
+  margin: 20px 0;
+}
+.news-card .news-card--title a {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.news-card .news-card--title a:hover {
+  text-decoration: underline;
+}
+.news-card .news-card--text {
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+/* News Card Styling -- End */
+/* Styling Utils -- End */
+
+/*Styling Header -- Start */
+
+header {
+  padding: 20px 0;
+  position: relative;
+}
+
+header .top-header {
+  height: 110px;
+}
+
+header .mini-logo {
+  position: absolute;
+  max-height: 43px;
+}
+
+header .logo {
+  width: 546px;
+  height: 43px;
+}
+
+header a {
+  font-size: 2rem;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header .icon-box > * {
+  border-right: 1px solid lightgray;
+  padding: 0 15px;
+}
+header .icon-box i {
+  font-size: 2.3rem;
+}
+
+header .bot-header {
+  padding: 20px 0;
+  border-top: 1px solid lightgray;
+}
+
+header nav a {
+  font-size: 1.8rem;
+}
+
+header .menu .wrapper {
+  padding: 20px 0;
+}
+
+header .menu .wrapper a {
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+}
+/*Styling Header -- End */
+
+/*Styling Main -- Start */
+
+main .main-slider {
+  background-image: url("../img/main-slider-imgs/slider-img-0.jpg");
+  background-color: rgba(173, 168, 168, 0.2);
+  background-blend-mode: multiply;
+  transition: 0.3s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-slider .swiper-btn {
+  color: #fff;
+  font-size: 5rem;
+  cursor: pointer;
+}
+main .main-slider .swiper-btn:hover {
+  color: var(--secondary);
+}
+main .main-slider .swiper-c-button-next {
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+}
+main .main-slider .swiper-c-button-prev {
+  position: absolute;
+  left: 10px;
+  z-index: 2;
+}
+.pos-rel .swiper-title {
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 47%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+.pos-rel .swiper-title h1 {
+  font-size: 6.2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.pos-rel .swiper-title p {
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+main .main-slider .swiper-slide {
+  height: 580px;
+  background: rgba(0, 0, 0, 0.219);
+  cursor: pointer;
+}
+main .main-slider .swiper-slide .text-wrapper {
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  transition: 0.3s;
+}
+main .main-slider .swiper-slide .text-wrapper .info {
+  margin: 20px 0;
+  font-size: 2rem;
+  display: none;
+}
+main .main-slider .swiper-slide .text-wrapper .fa-arrow-right {
+  font-size: 2.5rem;
+}
+main .main-slider .swiper-slide-active {
+  background: rgba(46, 45, 45, 0.631);
+}
+main .main-slider .swiper-slide.swiper-slide-active .text-wrapper {
+  transform: translateY(-30%);
+}
+main .main-slider .swiper-slide.swiper-slide-active .text-wrapper .info {
+  display: block;
+}
+main #card-slider {
+  background: #f5f3f2;
+  padding: 100px 0;
+}
+main .article-swiper {
+  margin: 10rem 0;
+}
+
+main .article-swiper .main-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  cursor: pointer;
+  height: 450px;
+  transition: 0.5s;
+  background-color: #fff;
+}
+
+main .article-swiper .main-card:hover .image-wrapper {
+  height: 200px;
+}
+main .article-swiper .main-card:hover .card-info {
+  opacity: 1;
+}
+main .article-swiper .main-card .image-wrapper {
+  height: 250px;
+  transition: 0.5s;
+  overflow: hidden;
+  width: 100%;
+}
+main .article-swiper .main-card .image-wrapper img {
+  width: 100%;
+}
+main .article-swiper .main-card .text-wrapper {
+  background: #fff;
+  overflow: hidden;
+  transition: 0.3;
+  height: 200px;
+}
+main .article-swiper .main-card .card-info {
+  opacity: 0;
+  transition: 0.3s;
+}
+main #card-slider .swiper-btn {
+  font-size: 4rem;
+  color: var(--primary);
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.2s;
+}
+main #card-slider .swiper-btn:hover {
+  color: var(--secondary);
+}
+main #card-slider .swiper-custom-button-next {
+  position: absolute;
+  left: 51%;
+  bottom: 0;
+}
+main #card-slider .swiper-custom-button-prev {
+  position: absolute;
+  left: 43%;
+  bottom: 0;
+}
+
+main #info-firm .firm-image {
+  background-image: url("../img/member-firm.webp");
+  background-color: rgb(214, 209, 209);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+main #info-firm .firm-image > p {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+main #info-firm .firm-image .text-wrapper span {
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+main #info-firm .firm-image .text-wrapper a {
+  font-size: 5rem;
+  display: block;
+  color: #fff;
+}
+main #info-firm .firm-image .text-wrapper a:hover {
+  text-decoration: underline;
+}
+
+main #info-firm .link-wrapper {
+  padding: 50px 0;
+}
+main #info-firm .link-item {
+  padding: 20px 0 20px 100px;
+
+  color: #fff;
+  cursor: pointer;
+}
+main #info-firm .link-item:hover {
+  background: #452671;
+}
+main #info-firm .link-item .link-title {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+main #info-firm .link-item .link-text a {
+  font-size: 3rem;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: 0.2s;
+}
+main #info-firm .link-item:hover a {
+  border-bottom: 2px solid #fff;
+}
+
+main #news {
+  padding: 100px;
+}
+main #news #viewAll {
+  color: var(--secondary);
+  font-size: 2rem;
+}
+main #news #viewAll .fa-arrow-right {
+  transition: 0.3s;
+}
+
+main #news #viewAll:hover .fa-arrow-right {
+  transform: translateX(10px);
+}
+
+main #inside-breadcrumb {
+  background-image: url("../img/footer-breadcrumb.webp");
+  background-color: rgba(70, 70, 70, 0.39);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+main #inside-breadcrumb .company-info {
+  color: #fff;
+  transform: translate(14%, 50%);
+}
+main #inside-breadcrumb .company-info .company--slogan {
+  font-size: 1.6rem;
+  letter-spacing: 4px;
+}
+main #inside-breadcrumb .company-info .company--name {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin: 15px 0;
+}
+main #inside-breadcrumb .company-info .company--text {
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+main #experience .exp-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  height: 60vh;
+}
+main #experience .exp-cont .title {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: #fff;
+  text-align: start;
+}
+main #experience .exp-cont .info {
+  font-size: 5rem;
+  text-align: start;
+  font-weight: 600;
+}
+main #experience .exp-cont .text {
+  margin: 30px 0;
+  font-size: 1.7rem;
+  text-align: start;
+}
+main #experience .exp-cont .btn-cont {
+  width: 50%;
+  text-align: start;
+}
+main #experience .grad-container {
+  transform: translate(40%, 20%);
+  color: #fff;
+}
+main #experience .hires-container {
+  transform: translate(20%, 20%);
+
+  color: #000;
+}
+main #experience .hires-container .title {
+  color: #000;
+}
+/*Styling Main -- End */
+
+/* Styling Footer -- Start  */
+
+footer {
+  padding: 100px 0;
+}
+footer .link-wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+footer .link-wrapper p {
+  color: inherit;
+  letter-spacing: 2px;
+}
+footer .link-wrapper p {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+footer .link-wrapper a {
+  margin: 5px 0;
+  font-size: 1.7rem;
+  transition: 0.3s;
+  letter-spacing: 2px;
+  color: inherit;
+}
+footer .link-wrapper a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+footer .social-icons {
+  font-size: 5rem;
+  color: #fff;
+  transform: translate(40px, -15px);
+}
+
+footer .social-icons .fab {
+  margin-right: 40px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s;
+}
+footer .social-icons .fab:hover {
+  color: var(--secondary);
+}
+footer .footer-text {
+  margin-top: 80px;
+  color: #fff;
+  font-size: 1.6rem;
+}
+/* Styling Footer -- End */
