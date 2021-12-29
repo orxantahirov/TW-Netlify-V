@@ -85,6 +85,20 @@ $(document).ready(function () {
       nextEl: ".swiper-c-button-next",
       prevEl: ".swiper-c-button-prev",
     },
+    breakpoints: {
+      200: {
+        slidesPerView: 2,
+      },
+      600: {
+        slidesPerView: 2,
+      },
+      1000: {
+        slidesPerView: 3,
+      },
+      1600: {
+        slidesPerView: 4,
+      },
+    },
   });
   swiper.on("slideChange", function () {
     console.log("slide changed");
@@ -96,7 +110,7 @@ $(document).ready(function () {
 
   let articleSwiper = new Swiper(".article-swiper", {
     slidesPerView: 5,
-    spaceBetween: 5,
+    spaceBetween: 10,
     loop: true,
     autoplay: {
       delay: 9000,
@@ -105,6 +119,23 @@ $(document).ready(function () {
     navigation: {
       nextEl: ".swiper-custom-button-next",
       prevEl: ".swiper-custom-button-prev",
+    },
+    breakpoints: {
+      200: {
+        slidesPerView: 1,
+      },
+      600: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      1000: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+      1600: {
+        slidesPerView: 5,
+        spaceBetween: 10,
+      },
     },
   });
 });

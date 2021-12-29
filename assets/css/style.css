@@ -404,15 +404,15 @@ main .article-swiper {
 main .article-swiper .main-card {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 100%;
   cursor: pointer;
-  height: 450px;
+  height: 100%;
   transition: 0.5s;
   background-color: #fff;
 }
 
-main .article-swiper .main-card:hover .image-wrapper {
-  height: 200px;
+main .article-swiper .main-card:hover .text-wrapper {
+  transform: translateY(-20%);
 }
 main .article-swiper .main-card:hover .card-info {
   opacity: 1;
@@ -429,7 +429,7 @@ main .article-swiper .main-card .image-wrapper img {
 main .article-swiper .main-card .text-wrapper {
   background: #fff;
   overflow: hidden;
-  transition: 0.3;
+  transition: 0.3s;
   height: 200px;
 }
 main .article-swiper .main-card .card-info {
@@ -537,7 +537,7 @@ main #inside-breadcrumb {
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 60vh;
 }
 
 main #inside-breadcrumb .company-info {
@@ -559,13 +559,14 @@ main #inside-breadcrumb .company-info .company--text {
   letter-spacing: 3px;
   font-weight: 600;
 }
-
+main #experience {
+}
 main #experience .exp-cont {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: start;
-  height: 60vh;
+  height: 80vh;
 }
 main #experience .exp-cont .title {
   font-size: 2rem;
@@ -588,7 +589,7 @@ main #experience .exp-cont .btn-cont {
   text-align: start;
 }
 main #experience .grad-container {
-  transform: translate(40%, 20%);
+  transform: translate(20%, 20%);
   color: #fff;
 }
 main #experience .hires-container {
