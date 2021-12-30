@@ -647,7 +647,7 @@ footer .social-icons {
   font-size: 5rem;
   color: #fff;
 }
-footer .social-icons {
+footer .social-icons a {
   margin-right: 40px;
 }
 footer .social-icons .fab {
