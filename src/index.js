@@ -8,7 +8,8 @@ window.onload = () => {
   handleSubMenu();
   //Handling Main Slider Background
   handleMainSlider();
-
+  //Handling Accardion
+  handleAccardion();
   //Main Slider changing background on hover
   function handleMainSlider() {
     const sliderItems = document.querySelectorAll(".main-slider .swiper-slide");
@@ -70,6 +71,40 @@ window.onload = () => {
       })
     );
   }
+  //Accardion Handler
+  function handleAccardion() {
+    const accardionTexts = document.querySelectorAll(
+      ".accardion .accardion-text"
+    );
+    const accardionTitles = document.querySelectorAll(
+      ".accardion .accardion-title"
+    );
+
+    accardionTitles.forEach((title) => {
+      title.addEventListener("click", function (e) {
+        e.stopPropagation();
+        const iconBot = e.target.children[1].children[1];
+        const textBox = e.target.nextElementSibling;
+        const allIconBots = document.querySelectorAll(
+          ".accardion-icon-wrapper .bot"
+        );
+
+        if (textBox.style.height == "") {
+          accardionTexts.forEach((textBox) => {
+            textBox.style.height = "";
+            allIconBots.forEach(
+              (el) => (el.style.transform = " rotate(90deg) translateX(-2px)")
+            );
+          });
+          textBox.style.height = textBox.scrollHeight + "px";
+          iconBot.style.transform = "rotate(0) translateY(-2px)";
+        } else {
+          textBox.style.height = "";
+          iconBot.style.transform = " rotate(90deg) translateX(-2px)";
+        }
+      });
+    });
+  }
 };
 
 $(document).ready(function () {
@@ -101,7 +136,6 @@ $(document).ready(function () {
     },
   });
   swiper.on("slideChange", function () {
-    console.log("slide changed");
     const active = document.querySelector(".main-slider .swiper-slide-active");
     const mainSlider = document.querySelector(".main-slider");
     const imgIndex = active.getAttribute("data-swiper-slide-index");

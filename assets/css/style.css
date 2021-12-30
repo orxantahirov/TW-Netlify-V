@@ -662,4 +662,47 @@ footer .footer-text {
   color: #fff;
   font-size: 1.6rem;
 }
+
+footer .accardion {
+}
+footer .accardion .accardion-title {
+  cursor: pointer;
+  color: #fff;
+}
+footer .accardion .accardion-title p {
+  font-size: 4rem;
+}
+footer .accardion .accardion-title .accardion-icon-wrapper {
+}
+footer .accardion .accardion-title .accardion-icon-wrapper .top {
+  background: #fff;
+  width: 25px;
+  height: 2px;
+}
+footer .accardion .accardion-title .accardion-icon-wrapper .bot {
+  background: #fff;
+  width: 25px;
+  height: 2px;
+  transform: rotate(90deg) translateX(-2px);
+  transition: 0.5s;
+}
+footer .accardion .accardion-text {
+  transition: 0.3s;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+footer .accardion .accardion-text a {
+  margin-top: 5px;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+footer .accardion .accardion-text a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
 /* Styling Footer -- End */

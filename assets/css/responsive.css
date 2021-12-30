@@ -27,10 +27,33 @@
   main #info-firm .link-item {
     padding: 20px 0 20px 20px;
   }
+  .desk-footer {
+    display: none;
+  }
+  .mobile-footer {
+    display: block;
+  }
+  footer .social-icons {
+    order: -1;
+  }
 }
 /* Medium */
 @media screen and (min-width: 576px) {
 }
+
+/* Small - Medium */
+@media screen and (min-width: 768px) {
+  .desk-footer {
+    display: flex;
+  }
+  .mobile-footer {
+    display: none;
+  }
+  footer .social-icons {
+    order: 0;
+  }
+}
+
 /* Large */
 @media screen and (min-width: 992px) {
   html {
