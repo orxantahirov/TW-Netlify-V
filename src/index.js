@@ -110,7 +110,7 @@ $(document).ready(function () {
 
   let articleSwiper = new Swiper(".article-swiper", {
     slidesPerView: 5,
-    spaceBetween: 20,
+    spaceBetween: 40,
     loop: true,
     autoplay: {
       delay: 9000,
@@ -126,15 +126,15 @@ $(document).ready(function () {
       },
       600: {
         slidesPerView: 3,
-        spaceBetween: 10,
+        spaceBetween: 20,
       },
       1000: {
         slidesPerView: 4,
-        spaceBetween: 10,
+        spaceBetween: 30,
       },
       1600: {
         slidesPerView: 5,
-        spaceBetween: 20,
+        spaceBetween: 40,
       },
     },
   });
