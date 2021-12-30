@@ -647,9 +647,10 @@ footer .social-icons {
   font-size: 5rem;
   color: #fff;
 }
-
-footer .social-icons .fab {
+footer .social-icons {
   margin-right: 40px;
+}
+footer .social-icons .fab {
   cursor: pointer;
   color: #fff;
   transition: 0.2s;
