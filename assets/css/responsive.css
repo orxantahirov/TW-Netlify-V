@@ -1,0 +1,81 @@
+/* Small */
+@media screen and (min-width: 200px) {
+  html {
+    font-size: 9px;
+  }
+  .desk-nav {
+    display: none;
+  }
+  main #news {
+    padding: 0;
+  }
+  .pos-rel .swiper-title h1 {
+    font-size: 4rem;
+  }
+  .pos-rel .swiper-title p {
+    font-size: 2rem;
+  }
+  main #card-slider .swiper-custom-button-prev {
+    left: 30%;
+  }
+  main #card-slider .swiper-custom-button-next {
+    left: 61%;
+  }
+  .firm-image {
+    height: 70vh;
+  }
+  main #info-firm .link-item {
+    padding: 20px 0 20px 20px;
+  }
+}
+/* Medium */
+@media screen and (min-width: 576px) {
+}
+/* Large */
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+  .desk-nav {
+    display: flex;
+  }
+}
+/* Extra Large  */
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 10px;
+  }
+  main #news {
+    padding: 80px;
+  }
+  .px-50 {
+    padding: 0;
+  }
+  .pos-rel .swiper-title {
+    padding-left: 20px;
+  }
+  .pos-rel .swiper-title h1 {
+    font-size: 6.5rem;
+  }
+  .pos-rel .swiper-title p {
+    font-size: 3rem;
+  }
+  main #card-slider .swiper-custom-button-prev {
+    left: 43%;
+  }
+  main #card-slider .swiper-custom-button-next {
+    left: 51%;
+  }
+  .firm-image {
+    height: auto;
+  }
+  main #info-firm .link-item {
+    padding: 20px 0 20px 100px;
+  }
+}
+/* XX Large  */
+@media screen and (min-width: 1400px) {
+  main #news {
+    padding: 100px;
+  }
+}

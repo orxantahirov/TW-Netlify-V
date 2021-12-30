@@ -101,6 +101,17 @@ body > * {
 .hover-cc:hover {
   color: var(--secondary);
 }
+
+.h-60v {
+  height: 60vh;
+}
+.h-100v {
+  height: 100vh;
+}
+.px-50 {
+  padding: 0 50px;
+}
+
 .text-end {
   text-align: end;
 }
@@ -136,8 +147,8 @@ body > * {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101 %;
   background: #fff;
   z-index: -2;
   transform: scaleX(0);
@@ -145,7 +156,7 @@ body > * {
   transition: 0.3s;
 }
 .btn-w:hover::after {
-  transform: scale(1);
+  transform: scaleX(1);
 }
 .btn-w:hover {
   color: var(--secondary);
@@ -164,8 +175,8 @@ body > * {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
   background: var(--secondary);
   z-index: -2;
   transform: scaleX(0);
@@ -173,7 +184,7 @@ body > * {
   transition: 0.3s;
 }
 .btn-r:hover::after {
-  transform: scale(1);
+  transform: scaleX(1);
 }
 .btn-r:hover {
   color: #fff;
@@ -263,6 +274,7 @@ body > * {
 /*Styling Header -- Start */
 
 header {
+  overflow: hidden;
   padding: 20px 0;
   position: relative;
 }
@@ -542,7 +554,6 @@ main #inside-breadcrumb {
 
 main #inside-breadcrumb .company-info {
   color: #fff;
-  transform: translate(14%, 50%);
 }
 main #inside-breadcrumb .company-info .company--slogan {
   font-size: 1.6rem;
@@ -566,7 +577,6 @@ main #experience .exp-cont {
   flex-direction: column;
   align-items: flex-start;
   justify-content: start;
-  height: 80vh;
 }
 main #experience .exp-cont .title {
   font-size: 2rem;
@@ -589,12 +599,11 @@ main #experience .exp-cont .btn-cont {
   text-align: start;
 }
 main #experience .grad-container {
-  transform: translate(20%, 20%);
   color: #fff;
+  display: inline;
 }
 main #experience .hires-container {
-  transform: translate(20%, 20%);
-
+  display: inline;
   color: #000;
 }
 main #experience .hires-container .title {
@@ -636,7 +645,6 @@ footer .link-wrapper a:hover {
 footer .social-icons {
   font-size: 5rem;
   color: #fff;
-  transform: translate(40px, -15px);
 }
 
 footer .social-icons .fab {
