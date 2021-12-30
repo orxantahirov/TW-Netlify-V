@@ -110,7 +110,7 @@ $(document).ready(function () {
 
   let articleSwiper = new Swiper(".article-swiper", {
     slidesPerView: 5,
-    spaceBetween: 10,
+    spaceBetween: 20,
     loop: true,
     autoplay: {
       delay: 9000,
@@ -134,7 +134,7 @@ $(document).ready(function () {
       },
       1600: {
         slidesPerView: 5,
-        spaceBetween: 10,
+        spaceBetween: 20,
       },
     },
   });
