@@ -138,6 +138,7 @@ body > * {
   color: #fff;
   position: relative;
   border: 2px solid #fff;
+  z-index: 2;
 }
 .btn-w::after {
   content: "";
@@ -148,7 +149,7 @@ body > * {
   right: 0;
   bottom: 0;
   width: 101%;
-  height: 101 %;
+  height: 101%;
   background: #fff;
   z-index: -2;
   transform: scaleX(0);
