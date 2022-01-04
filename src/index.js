@@ -39,7 +39,11 @@ window.onload = () => {
         el.nextElementSibling.style.overflow = "visible";
         if (el.nextElementSibling.scrollHeight < 447) {
           el.nextElementSibling.style.height = "447px";
+          document.body.style.height = "auto";
+          document.body.style.overflowY = "visible";
         } else {
+          document.body.style.height = "100%";
+          document.body.style.overflowY = "hidden";
           el.nextElementSibling.style.height =
             el.nextElementSibling.scrollHeight + "px";
         }
@@ -52,6 +56,8 @@ window.onload = () => {
         el.addEventListener("mouseleave", () => {
           el.style.height = "";
           el.style.overflow = "hidden";
+          document.body.style.height = "auto";
+          document.body.style.overflowY = "visible";
         })
       );
     });
