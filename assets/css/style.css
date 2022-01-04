@@ -215,8 +215,11 @@ body > * {
   transition: 0.5s;
 }
 
-.main-card:hover .text-wrapper {
-  transform: translateY(-20%);
+.main-card:hover .card-info {
+  transform: translateY(-40%);
+}
+.main-card:hover .image-wrapper {
+  height: 200px;
 }
 .main-card .image-wrapper {
   height: 250px;
@@ -231,7 +234,7 @@ body > * {
   background: #fff;
   overflow: hidden;
   transition: 0.3s;
-  height: 200px;
+  height: 240px;
 }
 .main-card a {
   border-bottom: 1px solid transparent;
