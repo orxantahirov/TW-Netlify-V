@@ -9,6 +9,9 @@
   main #news {
     padding: 0;
   }
+  .breadcrumb--text {
+    font-size: 4.5rem;
+  }
   .pos-rel .swiper-title h1 {
     font-size: 4rem;
   }
@@ -32,6 +35,9 @@
   }
   .mobile-footer {
     display: block;
+  }
+  .clients-wrapper {
+    grid-template-columns: repeat(3, minmax(30px, 150px));
   }
   footer .social-icons {
     order: -1;
@@ -60,8 +66,14 @@
   html {
     font-size: 9px;
   }
+  .clients-wrapper {
+    grid-template-columns: repeat(5, minmax(20px, 150px));
+  }
   .desk-nav {
     display: flex;
+  }
+  .breadcrumb--text {
+    font-size: 8rem;
   }
   footer .social-icons {
     font-size: 5rem;

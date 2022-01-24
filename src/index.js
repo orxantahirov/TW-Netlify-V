@@ -26,7 +26,30 @@ window.onload = () => {
   //Opening Navigation Menus
   function handleNavMenu() {
     const navLinks = document.querySelectorAll(".menu-act");
+    const subLinks = document.querySelectorAll(".sub-primary");
     const menus = document.querySelectorAll(".menu");
+
+    menus.forEach((el) => {
+      el.addEventListener("mouseover", function () {
+        document.body.style.height = "100vh";
+        document.body.style.overflowY = "hidden";
+      });
+      el.addEventListener("mouseleave", function () {
+        document.body.style.height = "auto";
+        document.body.style.overflowY = "visible";
+      });
+    });
+
+    subLinks.forEach((el) =>
+      el.addEventListener("mouseover", function () {
+        menus.forEach((el) => {
+          el.style.height = "";
+          el.style.overflow = "hidden";
+          document.body.style.height = "auto";
+          document.body.style.overflowY = "visible";
+        });
+      })
+    );
     navLinks.forEach((el) => {
       el.addEventListener("mouseover", (e) => {
         e.stopPropagation();
