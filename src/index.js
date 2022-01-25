@@ -10,6 +10,7 @@ window.onload = () => {
   handleMainSlider();
   //Handling Accardion
   handleAccardion();
+  handleServiceNav();
   //Main Slider changing background on hover
   function handleMainSlider() {
     const sliderItems = document.querySelectorAll(".main-slider .swiper-slide");
@@ -46,7 +47,7 @@ window.onload = () => {
           el.style.overflow = "hidden";
         });
 
-        el.nextElementSibling.style.overflow = "visible";
+        // el.nextElementSibling.style.overflow = "visible";
         if (el.nextElementSibling.scrollHeight < 447) {
           el.nextElementSibling.style.height = "447px";
         } else {
@@ -117,6 +118,27 @@ window.onload = () => {
   }
 };
 
+//Handle SideNav on Services PAge
+function handleServiceNav() {
+  const navWrapper = document.querySelectorAll(".nav-wrapper");
+
+  [...navWrapper].forEach((el) =>
+    el.addEventListener("click", function () {
+      const navDropDown = el.nextElementSibling;
+      const icon = el.children[1];
+      console.log(icon);
+      if (navDropDown.style.height != "") {
+        navDropDown.style.height = "";
+        icon.style.transform = "rotate(0)";
+      } else {
+        icon.style.transform = "rotate(90deg)";
+
+        navDropDown.style.height = navDropDown.scrollHeight + "px";
+      }
+    })
+  );
+}
+
 $(document).ready(function () {
   let swiper = new Swiper(".main-slider", {
     slidesPerView: 4,
@@ -138,7 +160,7 @@ $(document).ready(function () {
         slidesPerView: 2,
       },
       1000: {
-        slidesPerView: 3,
+        slidesPerView: 4,
       },
       1600: {
         slidesPerView: 4,

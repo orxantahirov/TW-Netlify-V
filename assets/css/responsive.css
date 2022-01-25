@@ -9,6 +9,16 @@
   main #news {
     padding: 0;
   }
+  .background {
+    background-color: #4f2d7fd8;
+    background-blend-mode: multiply;
+    background-size: 300px;
+  }
+  #service-breadcrumb .service-title {
+    font-size: 3.2rem;
+    letter-spacing: 3px;
+    color: #fff;
+  }
   .breadcrumb--text {
     font-size: 4.5rem;
   }
@@ -38,6 +48,9 @@
   }
   .clients-wrapper {
     grid-template-columns: repeat(3, minmax(30px, 150px));
+  }
+  .team-card {
+    min-height: 496px;
   }
   footer .social-icons {
     order: -1;
@@ -75,6 +88,16 @@
   .breadcrumb--text {
     font-size: 8rem;
   }
+  .background {
+    background-color: transparent;
+    background-blend-mode: none;
+    background-size: 600px;
+  }
+  #service-breadcrumb .service-title {
+    font-size: 4.8rem;
+    letter-spacing: 3px;
+    color: var(--primary);
+  }
   footer .social-icons {
     font-size: 5rem;
   }
@@ -98,6 +121,9 @@
   }
   .pos-rel .swiper-title p {
     font-size: 3rem;
+  }
+  .team-card {
+    min-height: 619px;
   }
   main #card-slider .swiper-custom-button-prev {
     left: 43%;
