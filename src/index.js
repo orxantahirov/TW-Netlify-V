@@ -11,17 +11,24 @@ window.onload = () => {
   //Handling Accardion
   handleAccardion();
   handleServiceNav();
+  handleDefaultAccardion();
   //Main Slider changing background on hover
   function handleMainSlider() {
     const sliderItems = document.querySelectorAll(".main-slider .swiper-slide");
     const mainSlider = document.querySelector(".main-slider");
     sliderItems.forEach((el) => {
-      el.addEventListener("mouseover", () => {
-        sliderItems.forEach((el) => el.classList.remove("swiper-slide-active"));
-        el.classList.add("swiper-slide-active");
-        const imgIndex = el.getAttribute("data-swiper-slide-index");
-        mainSlider.style.backgroundImage = `url('./assets/img/main-slider-imgs/slider-img-${imgIndex}.jpg')`;
-      });
+      el.addEventListener(
+        "mouseover",
+        () => {
+          sliderItems.forEach((el) =>
+            el.classList.remove("swiper-slide-active")
+          );
+          el.classList.add("swiper-slide-active");
+          const imgIndex = el.getAttribute("data-swiper-slide-index");
+          mainSlider.style.backgroundImage = `url('./assets/img/main-slider-imgs/slider-img-${imgIndex}.jpg')`;
+        },
+        true
+      );
     });
   }
   //Opening Navigation Menus
@@ -54,7 +61,6 @@ window.onload = () => {
           el.nextElementSibling.style.height =
             el.nextElementSibling.scrollHeight + "px";
         }
-        console.log(el.nextElementSibling.scrollHeight);
         el.nextElementSibling.firstElementChild.nextElementSibling.classList.remove(
           "d-none"
         );
@@ -76,7 +82,6 @@ window.onload = () => {
       el.addEventListener("mouseover", () => {
         const tgl = el.getAttribute("data-toggle");
         const menu = document.querySelector(`.${tgl}`);
-        console.log(menu);
         allMenus.forEach((el) => el.classList.add("d-none"));
         menu.classList.remove("d-none");
       })
@@ -117,7 +122,39 @@ window.onload = () => {
     });
   }
 };
+//Default Accardion
+function handleDefaultAccardion() {
+  const accardionTexts = document.querySelectorAll(
+    ".accardion-default .accardion-default-text"
+  );
+  const accardionTitles = document.querySelectorAll(
+    ".accardion-default .accardion-default-title"
+  );
 
+  accardionTitles.forEach((title) => {
+    title.addEventListener("click", function (e) {
+      console.log(e.target);
+      e.stopPropagation();
+      const iconBot = e.target.children[1];
+      const textBox = e.target.nextElementSibling;
+      const allIconBots = document.querySelectorAll(
+        ".accardion-default-icon-wrapper"
+      );
+
+      if (textBox.style.height == "") {
+        accardionTexts.forEach((textBox) => {
+          textBox.style.height = "";
+          allIconBots.forEach((el) => (el.style.transform = "rotate(180deg)"));
+        });
+        textBox.style.height = textBox.scrollHeight + "px";
+        iconBot.style.transform = "rotate(0)";
+      } else {
+        textBox.style.height = "";
+        iconBot.style.transform = " rotate(180deg) ";
+      }
+    });
+  });
+}
 //Handle SideNav on Services PAge
 function handleServiceNav() {
   const navWrapper = document.querySelectorAll(".nav-wrapper");
