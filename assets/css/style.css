@@ -163,7 +163,9 @@ body > * {
 .pos-rel {
   position: relative;
 }
-
+.text-underline {
+  text-decoration: underline;
+}
 .h-60v {
   height: 60vh;
 }
@@ -977,14 +979,15 @@ main #experience .hires-container .title {
   overflow: hidden;
 }
 .side-card-social {
-  height: 200px;
   margin-left: auto;
-  background-color: var(--secondary);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 35%;
   overflow: hidden;
+}
+.side-card-social .card-info {
+  height: 200px;
 }
 #service-panel .side-card img {
   width: 100%;
