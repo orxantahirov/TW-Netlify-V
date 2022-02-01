@@ -595,6 +595,7 @@ main #info-firm .firm-image {
   justify-content: space-around;
   align-items: center;
   color: #fff;
+  position: relative;
 }
 main #info-firm .firm-overlay {
   position: absolute;
@@ -613,19 +614,29 @@ main #info-firm .firm-image > p {
   color: var(--primary);
 }
 main #info-firm .firm-image .text-wrapper {
+  position: absolute;
+  right: 208px;
+  bottom: 98px;
   z-index: 5;
+  color: #001219;
+}
+main #info-firm .firm-image .firm-title {
+  position: absolute;
+  top: 236px;
+  right: 387px;
+  color: #001219;
 }
 main #info-firm .firm-image .text-wrapper span {
   font-size: 2rem;
   letter-spacing: 5px;
   z-index: 5;
-  color: var(--primary);
+  color: inherit;
 }
 main #info-firm .firm-image .text-wrapper a {
   font-size: 5rem;
   display: block;
   z-index: 5;
-  color: var(--primary);
+  color: inherit;
 }
 main #info-firm .firm-image .text-wrapper a:hover {
   text-decoration: underline;

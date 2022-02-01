@@ -34,6 +34,12 @@
   main #card-slider .swiper-custom-button-next {
     left: 61%;
   }
+  main #info-firm .firm-image .text-wrapper {
+    position: static;
+  }
+  main #info-firm .firm-image .firm-title {
+    position: static;
+  }
   .firm-image {
     height: 70vh;
   }
@@ -142,5 +148,36 @@
 @media screen and (min-width: 1400px) {
   main #news {
     padding: 100px;
+  }
+  main #info-firm .firm-image .firm-title {
+    position: absolute;
+    top: 236px;
+    right: 340px;
+    color: #001219;
+  }
+  main #info-firm .firm-image .text-wrapper {
+    position: absolute;
+    right: 155px;
+    bottom: 98px;
+    z-index: 5;
+    color: #001219;
+  }
+}
+@media screen and (min-width: 1500px) {
+  main #news {
+    padding: 100px;
+  }
+  main #info-firm .firm-image .firm-title {
+    position: absolute;
+    top: 236px;
+    right: 340px;
+    color: #001219;
+  }
+  main #info-firm .firm-image .text-wrapper {
+    position: absolute;
+    right: 208px;
+    bottom: 98px;
+    z-index: 5;
+    color: #001219;
   }
 }
