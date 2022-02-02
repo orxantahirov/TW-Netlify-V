@@ -157,7 +157,7 @@ body > * {
   cursor: pointer;
 }
 .hover-cc-p:hover {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .pos-rel {
@@ -859,7 +859,7 @@ main #experience .hires-container .title {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(5, minmax(20px, 150px));
   gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
 }
 .client-image {
   display: flex;
@@ -881,7 +881,7 @@ main #experience .hires-container .title {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: rgba(222, 1, 47, 1);
+  background-color: var(--primary);
   position: absolute;
   bottom: -45px;
   right: -30px;

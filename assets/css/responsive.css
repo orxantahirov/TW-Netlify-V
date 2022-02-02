@@ -143,6 +143,19 @@
   main #info-firm .link-item {
     padding: 20px 0 20px 100px;
   }
+  main #info-firm .firm-image .firm-title {
+    position: absolute;
+    top: 236px;
+    right: 246px;
+    color: #001219;
+  }
+  main #info-firm .firm-image .text-wrapper {
+    position: absolute;
+    right: 70px;
+    bottom: 98px;
+    z-index: 5;
+    color: #001219;
+  }
 }
 /* XX Large  */
 @media screen and (min-width: 1400px) {
@@ -170,7 +183,7 @@
   main #info-firm .firm-image .firm-title {
     position: absolute;
     top: 236px;
-    right: 340px;
+    right: 391px;
     color: #001219;
   }
   main #info-firm .firm-image .text-wrapper {
