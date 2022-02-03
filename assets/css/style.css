@@ -188,6 +188,9 @@ body > * {
 .text-end {
   text-align: end;
 }
+.text-center {
+  text-align: center;
+}
 .title {
   font-size: 3.4rem;
   color: #000;
@@ -197,7 +200,7 @@ body > * {
 .margin-sec {
   margin: 50px 0;
 }
-.default-btn {
+.btndefault- {
   background: transparent;
   border: none;
   outline: none;
@@ -1138,6 +1141,112 @@ main #experience .hires-container .title {
   transform: scaleX(0);
 }
 /* About Page Styling -- End */
+/* Contact Page Styling -- Start  */
+.contact-title {
+  color: #1d314b;
+  font-weight: 700;
+}
+#form-contact {
+  font-family: "Manrope", sans-serif;
+}
+#form-contact textarea {
+  width: 100%;
+  resize: none;
+  height: 208px;
+  margin: 48px 0;
+  padding: 40px 30px 40px 30px;
+  font-size: 16px;
+  border: 1px solid #424242;
+  border-radius: 10px;
+  outline: none;
+}
+.textarea-label {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  background: #fff;
+  padding: 0 9px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1d314b;
+}
+#form-contact * {
+  font-family: inherit;
+}
+#form-contact .input-group {
+  width: 400px;
+  height: 59px;
+  border: 1px solid #424242;
+  border-radius: 10px;
+  position: relative;
+}
+#form-contact label {
+  position: absolute;
+  background-color: #fff;
+  padding: 0 9px;
+  top: -13px;
+  left: 20px;
+  font-size: 20px;
+  color: #1d314b;
+  font-weight: 400;
+}
+#form-contact input {
+  border: none;
+  outline: none;
+  width: 95%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-40%);
+  font-size: 20px;
+}
+#form-contact .submit-btn {
+  background: #57b660;
+  border-radius: 85px;
+  width: 283.2px;
+  height: 70.8px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+#form-contact .submit-btn:hover {
+  background-color: var(--secondary);
+}
+#map-location .map-loc-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #1d314b;
+}
+#map-location .map-text {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 146.6%;
+}
+#map-location .map-contact-info {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 42px;
+
+  color: #1d314b;
+}
+
+/* Contact-page Styling --end  */
 /* Styling Footer -- Start  */
 
 footer {

@@ -58,6 +58,15 @@
   .team-card {
     min-height: 496px;
   }
+  #form-contact .input-group {
+    width: 100%;
+  }
+  #map-location .map-text {
+    font-size: 24px;
+  }
+  #map-location .map-contact-info {
+    font-size: 24px;
+  }
   footer .social-icons {
     order: -1;
     font-size: 4rem;
@@ -104,12 +113,24 @@
     letter-spacing: 3px;
     color: var(--primary);
   }
+  #form-contact .input-group {
+    width: 300px;
+  }
   footer .social-icons {
     font-size: 5rem;
   }
 }
 /* Extra Large  */
 @media screen and (min-width: 1200px) {
+  #map-location .map-contact-info {
+    font-size: 30px;
+  }
+  #map-location .map-text {
+    font-size: 30px;
+  }
+  #form-contact .input-group {
+    width: 350px;
+  }
   html {
     font-size: 10px;
   }
@@ -159,6 +180,9 @@
 }
 /* XX Large  */
 @media screen and (min-width: 1400px) {
+  #form-contact .input-group {
+    width: 420px;
+  }
   main #news {
     padding: 100px;
   }
