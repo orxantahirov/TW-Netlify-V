@@ -389,7 +389,11 @@ body > * {
 
 header {
   padding: 20px 0;
-  position: relative;
+  /* position: relative; */
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
 }
 
 header .top-header {
@@ -444,6 +448,10 @@ header .menu .wrapper a {
 /*Styling Header -- End */
 
 /*Styling Main -- Start */
+#breadcrumb-slider {
+  position: relative;
+  top: 210px;
+}
 
 main .main-slider {
   background-image: url("../img/main-slider-imgs/slider-img-0.jpg");
