@@ -200,7 +200,7 @@ body > * {
 .margin-sec {
   margin: 50px 0;
 }
-.btndefault- {
+.btndefault {
   background: transparent;
   border: none;
   outline: none;
@@ -1159,6 +1159,7 @@ main #experience .hires-container .title {
   border: 1px solid #424242;
   border-radius: 10px;
   outline: none;
+  background: #fff;
 }
 .textarea-label {
   position: absolute;
