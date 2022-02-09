@@ -1,341 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template WS</title>
 
-    <script
-      defer
-      src="https://kit.fontawesome.com/407b7a1280.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="row justify-content-between align-items-center top-header">
-          <div class="col-5 mini-logo">
-            <a href="./index.html">
-              <div class="image-wrapper">
-                <img src="./assets/img/logo-mini.webp" alt="logo of company" />
-              </div>
-            </a>
-          </div>
-          <div class="col-5">
-            <a href="#">
-              <div class="image-wrapper logo">
-                <img
-                  src="./assets/img/logo-w-text.webp"
-                  alt="logo of company"
-                />
-              </div>
-            </a>
-          </div>
-          <div class="col-6 desk-nav justify-content-end">
-            <div class="icon-box d-flex justify-content-end align-items-center">
-              <a href="#" class="hover-cc primary">
-                Find your local member firm
-              </a>
-              <a href="#"><i class="fas fa-bookmark primary hover-cc"></i></a>
-              <a href="#"
-                ><i class="fas fa-globe-europe primary hover-cc"></i>
-              </a>
-              <a href="#"><i class="fas fa-search primary hover-cc"></i></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Template WS</title>
+
+  <script defer src="https://kit.fontawesome.com/407b7a1280.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row justify-content-between align-items-center top-header">
+        <div class="col-5 mini-logo">
+          <a href="./index.html">
+            <div class="image-wrapper">
+              <img src="./assets/img/logo-mini.webp" alt="logo of company" />
             </div>
+          </a>
+        </div>
+        <div class="col-5">
+          <a href="#">
+            <div class="image-wrapper logo">
+              <img src="./assets/img/logo-w-text.webp" alt="logo of company" />
+            </div>
+          </a>
+        </div>
+        <div class="col-6 desk-nav justify-content-end">
+          <div class="icon-box d-flex justify-content-end align-items-center">
+            <a href="#" class="hover-cc primary">
+              Find your local member firm
+            </a>
+            <a href="#"><i class="fas fa-bookmark primary hover-cc"></i></a>
+            <a href="#"><i class="fas fa-globe-europe primary hover-cc"></i>
+            </a>
+            <a href="#"><i class="fas fa-search primary hover-cc"></i></a>
           </div>
         </div>
       </div>
-      <div class="container-fluid px-0">
-        <div class="bot-header desk-nav">
-          <div class="container">
-            <div class="row">
-              <div class="col-5">
-                <nav class="d-flex justify-content-between">
-                  <a
-                    href="./about-us.html"
-                    class="primary hover-cc sub-primary"
-                  >
-                    Haqqımızda
-                  </a>
-                  <a href="./contact.html" class="primary hover-cc sub-primary">
-                    Əlaqə
-                  </a>
-                  <a
-                    href="#"
-                    class="primary hover-cc menu-act"
-                    data-show="services"
-                  >
-                    Xidmətlər
-                  </a>
-                  <div class="menu services d-flex" data-toggle="services-menu">
-                    <div class="col-3 lightgray-bg menu-nav-left">
-                      <div
-                        class="wrapper d-flex flex-column align-items-end px-5"
-                      >
-                        <a
-                          href="./services-tax.html"
-                          class="primary hover-cc sub-act mt-3"
-                          data-toggle="audit-menu"
-                          >Audit Xidmətləri</a
-                        >
-                        <a
-                          href="./services-tax.html"
-                          class="primary hover-cc sub-act"
-                          data-toggle="tax-menu"
-                          >Vergi Xidmətləri</a
-                        >
-                        <a
-                          href="./services-advisory.html"
-                          class="primary hover-cc sub-act"
-                          data-toggle="advisory-menu"
-                          >Məsləhət Xidmətləri</a
-                        >
-                        <a
-                          href="./services-accountment.html"
-                          class="primary hover-cc sub-act"
-                          data-toggle="assurance-menu"
-                          >Muhasibatlıq Xidmətləri</a
-                        >
+    </div>
+    <div class="container-fluid px-0">
+      <div class="bot-header desk-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+              <nav class="d-flex justify-content-between">
+                <a href="./about-us.html" class="primary hover-cc sub-primary">
+                  Haqqımızda
+                </a>
+                <a href="./contact.html" class="primary hover-cc sub-primary">
+                  Əlaqə
+                </a>
+                <a href="#" class="primary hover-cc menu-act" data-show="services">
+                  Xidmətlər
+                </a>
+                <div class="menu services d-flex" data-toggle="services-menu">
+                  <div class="col-3 lightgray-bg menu-nav-left">
+                    <div class="wrapper d-flex flex-column align-items-end px-5">
+                      <a href="./services-tax.html" class="primary hover-cc sub-act mt-3" data-toggle="audit-menu">Audit
+                        Xidmətləri</a>
+                      <a href="./services-tax.html" class="primary hover-cc sub-act" data-toggle="tax-menu">Vergi
+                        Xidmətləri</a>
+                      <a href="./services-advisory.html" class="primary hover-cc sub-act"
+                        data-toggle="advisory-menu">Məsləhət Xidmətləri</a>
+                      <a href="./services-accountment.html" class="primary hover-cc sub-act"
+                        data-toggle="assurance-menu">Muhasibatlıq Xidmətləri</a>
 
-                        <a
-                          href="./services-advisory.html"
-                          class="primary hover-cc sub-act"
-                          data-toggle="advisory-menu"
-                          >Xarici ticarət və gömrük xidmətləri</a
-                        >
+                      <a href="./services-advisory.html" class="primary hover-cc sub-act"
+                        data-toggle="advisory-menu">Xarici ticarət və gömrük xidmətləri</a>
+                    </div>
+                  </div>
+                  <div class="col-9 audit-menu sub-menu gray-bg d-flex d-none">
+                    <div class="col-7">
+                      <div class="wrapper d-flex flex-column align-items-start px-5 ms-5">
+                        <p class="title mt-1">Audit xidmətləri</p>
+                        <a href="./services-tax-3.html" class="primary hover-cc">Vergi hesabatlarının auditi</a>
+                        <a href="./services-tax-1.html" class="primary hover-cc">Maliyyə hesabatlarının auditi</a>
+                        <a href="./services-tax-4.html" class="primary hover-cc">Əmlakın qiymətləndirilməsinin
+                          auditi</a>
+                        <a href="./services-tax-2.html" class="primary hover-cc">Nizamnamə kapitalının
+                          formalaşdırılmasın auditi</a>
                       </div>
                     </div>
-                    <div
-                      class="col-9 audit-menu sub-menu gray-bg d-flex d-none"
-                    >
-                      <div class="col-7">
-                        <div
-                          class="wrapper d-flex flex-column align-items-start px-5 ms-5"
-                        >
-                          <p class="title mt-1">Audit xidmətləri</p>
-                          <a
-                            href="./services-tax-3.html"
-                            class="primary hover-cc"
-                            >Vergi hesabatlarının auditi</a
-                          >
-                          <a
-                            href="./services-tax-1.html"
-                            class="primary hover-cc"
-                            >Maliyyə hesabatlarının auditi</a
-                          >
-                          <a
-                            href="./services-tax-4.html"
-                            class="primary hover-cc"
-                            >Əmlakın qiymətləndirilməsinin auditi</a
-                          >
-                          <a
-                            href="./services-tax-2.html"
-                            class="primary hover-cc"
-                            >Nizamnamə kapitalının formalaşdırılmasın auditi</a
-                          >
+                    <div class="col-5 p-5 ms-5">
+                      <div class="main-card">
+                        <div class="image-wrapper">
+                          <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
                         </div>
-                      </div>
-                      <div class="col-5 p-5 ms-5">
-                        <div class="main-card">
-                          <div class="image-wrapper">
-                            <img
-                              src="./assets/img/client-behaviour-300x300.jpg"
-                              alt="Formula driver"
-                            />
+                        <div class="text-wrapper p-4">
+                          <div class="card-tag darkgray">
+                            BUSINESS RESILENCE
                           </div>
-                          <div class="text-wrapper p-4">
-                            <div class="card-tag darkgray">
-                              BUSINESS RESILENCE
-                            </div>
-                            <a href="#">
-                              <p class="fs-2 primary my-4 fw-600">
-                                Returning your business
-                              </p>
-                            </a>
-
-                            <br />
-                            <p class="card-info mt-2">
-                              Lorem ipsum dolor sit amet consectetur,
-                              adipisicing elit. Quis, temporibus?
+                          <a href="#">
+                            <p class="fs-2 primary my-4 fw-600">
+                              Returning your business
                             </p>
-                          </div>
+                          </a>
+
+                          <br />
+                          <p class="card-info mt-2">
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Quis, temporibus?
+                          </p>
                         </div>
                       </div>
                     </div>
-                    <div class="col-9 tax-menu sub-menu gray-bg d-flex d-none">
-                      <div class="col-7">
-                        <div
-                          class="wrapper d-flex flex-column align-items-start px-5 ms-5"
-                        >
-                          <p class="title mt-1">Vergi xidmətləri</p>
-                          <a
-                            href="./services-tax-1.html"
-                            class="primary hover-cc"
-                            >Vergi auditi xidmətləri</a
-                          >
-                          <a
-                            href="./services-tax-2.html"
-                            class="primary hover-cc"
-                            >Vergi məsləhət xidmətləri</a
-                          >
-                          <a
-                            href="./services-tax-3.html"
-                            class="primary hover-cc"
-                            >Vergi planlaması xidmətləri</a
-                          >
-                          <a
-                            href="./services-tax-4.html"
-                            class="primary hover-cc"
-                            >Vergi sahəsində sair xidmətlər</a
-                          >
-                        </div>
+                  </div>
+                  <div class="col-9 tax-menu sub-menu gray-bg d-flex d-none">
+                    <div class="col-7">
+                      <div class="wrapper d-flex flex-column align-items-start px-5 ms-5">
+                        <p class="title mt-1">Vergi xidmətləri</p>
+                        <a href="./services-tax-1.html" class="primary hover-cc">Vergi auditi xidmətləri</a>
+                        <a href="./services-tax-2.html" class="primary hover-cc">Vergi məsləhət xidmətləri</a>
+                        <a href="./services-tax-3.html" class="primary hover-cc">Vergi planlaması xidmətləri</a>
+                        <a href="./services-tax-4.html" class="primary hover-cc">Vergi sahəsində sair xidmətlər</a>
                       </div>
-                      <div class="col-5 p-5 ms-5">
-                        <div class="main-card">
-                          <div class="image-wrapper">
-                            <img
-                              src="./assets/img/client-behaviour-300x300.jpg"
-                              alt="Formula driver"
-                            />
+                    </div>
+                    <div class="col-5 p-5 ms-5">
+                      <div class="main-card">
+                        <div class="image-wrapper">
+                          <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
+                        </div>
+                        <div class="text-wrapper p-4">
+                          <div class="card-tag darkgray">
+                            BUSINESS RESILENCE
                           </div>
-                          <div class="text-wrapper p-4">
-                            <div class="card-tag darkgray">
-                              BUSINESS RESILENCE
-                            </div>
-                            <a href="#">
-                              <p class="fs-2 primary my-4 fw-600">
-                                Returning your business
-                              </p>
-                            </a>
-
-                            <br />
-                            <p class="card-info mt-2">
-                              Lorem ipsum dolor sit amet consectetur,
-                              adipisicing elit. Quis, temporibus?
+                          <a href="#">
+                            <p class="fs-2 primary my-4 fw-600">
+                              Returning your business
                             </p>
-                          </div>
+                          </a>
+
+                          <br />
+                          <p class="card-info mt-2">
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Quis, temporibus?
+                          </p>
                         </div>
                       </div>
                     </div>
-                    <div class="col-9 assurance-menu sub-menu gray-bg d-flex">
-                      <div class="col-7">
-                        <div
-                          class="wrapper d-flex flex-column align-items-start px-5 ms-5"
-                        >
-                          <p class="title mt-1">Muhasibatlıq xidmətləri</p>
-                          <a
-                            href="./services-accountment-2.html"
-                            class="primary hover-cc"
-                            >Maliyyə uçotunun üzrə autsors xidmətləri</a
-                          >
-                          <a
-                            href="./services-accountment-1.html"
-                            class="primary hover-cc"
-                            >Muhasibat uçotunun üzrə autsors xidməti</a
-                          >
+                  </div>
+                  <div class="col-9 assurance-menu sub-menu gray-bg d-flex">
+                    <div class="col-7">
+                      <div class="wrapper d-flex flex-column align-items-start px-5 ms-5">
+                        <p class="title mt-1">Muhasibatlıq xidmətləri</p>
+                        <a href="./services-accountment-2.html" class="primary hover-cc">Maliyyə uçotunun üzrə autsors
+                          xidmətləri</a>
+                        <a href="./services-accountment-1.html" class="primary hover-cc">Muhasibat uçotunun üzrə autsors
+                          xidməti</a>
 
-                          <a
-                            href="./services-accountment-3.html"
-                            class="primary hover-cc"
-                            >Şirkət rəhbərliyinə xərclər və gəlirlilik haqqında
-                            hesabatların hazırlanması</a
-                          >
-                        </div>
+                        <a href="./services-accountment-3.html" class="primary hover-cc">Şirkət rəhbərliyinə xərclər və
+                          gəlirlilik haqqında
+                          hesabatların hazırlanması</a>
                       </div>
-                      <div class="col-5 p-5 ms-5">
-                        <div class="main-card">
-                          <div class="image-wrapper">
-                            <img
-                              src="./assets/img/client-behaviour-300x300.jpg"
-                              alt="Formula driver"
-                            />
+                    </div>
+                    <div class="col-5 p-5 ms-5">
+                      <div class="main-card">
+                        <div class="image-wrapper">
+                          <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
+                        </div>
+                        <div class="text-wrapper p-4">
+                          <div class="card-tag darkgray">
+                            BUSINESS RESILENCE
                           </div>
-                          <div class="text-wrapper p-4">
-                            <div class="card-tag darkgray">
-                              BUSINESS RESILENCE
-                            </div>
-                            <a href="#">
-                              <p class="fs-2 primary my-4 fw-600">
-                                Returning your business
-                              </p>
-                            </a>
-
-                            <br />
-                            <p class="card-info mt-2">
-                              Lorem ipsum dolor sit amet consectetur,
-                              adipisicing elit. Quis, temporibus?
+                          <a href="#">
+                            <p class="fs-2 primary my-4 fw-600">
+                              Returning your business
                             </p>
-                          </div>
+                          </a>
+
+                          <br />
+                          <p class="card-info mt-2">
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Quis, temporibus?
+                          </p>
                         </div>
                       </div>
                     </div>
-                    <div class="col-9 advisory-menu gray-bg d-flex d-none">
-                      <div class="col-7">
-                        <div
-                          class="wrapper d-flex flex-column align-items-start px-5 ms-5"
-                        ></div>
-                      </div>
-                      <div class="col-5 p-5 ms-5"></div>
+                  </div>
+                  <div class="col-9 advisory-menu gray-bg d-flex d-none">
+                    <div class="col-7">
+                      <div class="wrapper d-flex flex-column align-items-start px-5 ms-5"></div>
+                    </div>
+                    <div class="col-5 p-5 ms-5"></div>
+                  </div>
+                </div>
+
+                <a href="#" class="primary hover-cc menu-act" data-show="industries">
+                  Sahələr
+                </a>
+                <div class="menu industries d-flex" data-toggle="services-menu">
+                  <div class="col-3 lightgray-bg menu-nav-left">
+                    <div class="wrapper d-flex flex-column align-items-end px-5">
+                      <a href="#" class="primary hover-cc mt-3">Təhsil</a>
+                      <a href="#" class="primary hover-cc">Hotel və Turizm</a>
+                      <a href="#" class="primary hover-cc">İstehsalat sahəsi</a>
+                      <a href="#" class="primary hover-cc">Maliyyə qurumları</a>
+                      <a href="#" class="primary hover-cc">Kənd Təsərüfatı, emal</a>
+                      <a href="#" class="primary hover-cc">Tikinti və əmlak sahəsi</a>
+                      <a href="#" class="primary hover-cc">Ticarət və Pərakəndəçilik</a>
+                      <a href="./industries-sub-page.html" class="primary hover-cc">Xəstəxanalar və hospitallar</a>
                     </div>
                   </div>
 
-                  <a
-                    href="#"
-                    class="primary hover-cc menu-act"
-                    data-show="industries"
-                  >
-                    Sahələr
-                  </a>
-                  <div
-                    class="menu industries d-flex"
-                    data-toggle="services-menu"
-                  >
-                    <div class="col-3 lightgray-bg menu-nav-left">
-                      <div
-                        class="wrapper d-flex flex-column align-items-end px-5"
-                      >
-                        <a href="#" class="primary hover-cc mt-3">Təhsil</a>
-                        <a href="#" class="primary hover-cc">Hotel və Turizm</a>
-                        <a href="#" class="primary hover-cc"
-                          >İstehsalat sahəsi</a
-                        >
-                        <a href="#" class="primary hover-cc"
-                          >Maliyyə qurumları</a
-                        >
-                        <a href="#" class="primary hover-cc"
-                          >Kənd Təsərüfatı, emal</a
-                        >
-                        <a href="#" class="primary hover-cc"
-                          >Tikinti və əmlak sahəsi</a
-                        >
-                        <a href="#" class="primary hover-cc"
-                          >Ticarət və Pərakəndəçilik</a
-                        >
-                        <a
-                          href="./industries-sub-page.html"
-                          class="primary hover-cc"
-                          >Xəstəxanalar və hospitallar</a
-                        >
-                      </div>
-                    </div>
-
-                    <div class="col-9 sub-menu gray-bg d-flex d-none"></div>
-                    <!-- <div
+                  <div class="col-9 sub-menu gray-bg d-flex d-none"></div>
+                  <!-- <div
                       class="col-9 assuranceInd-menu sub-menu gray-bg d-flex"
                     >
                       <div class="col-7">
@@ -455,519 +333,483 @@
                         </div>
                       </div>
                     </div> -->
-                  </div>
-                  <!-- <a href="#" class="primary hover-cc sub-primary">
+                </div>
+                <!-- <a href="#" class="primary hover-cc sub-primary">
                     Insights
                   </a> -->
-                </nav>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="breadcrumb-slider">
+      <div class="container-fluid px-0">
+        <div class="row px-0 mx-0">
+          <div class="col-12 pos-rel px-0">
+            <div class="swiper main-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="text-wrapper">
+                    <p class="fs-2-5 fw-600">Lorem Ipsum Dolar</p>
+                    <p class="info">Take an action today!</p>
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-wrapper">
+                    <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
+                    <p class="info">Take an action today!</p>
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-wrapper">
+                    <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
+                    <p class="info">Take an action today!</p>
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-wrapper">
+                    <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
+                    <p class="info">Take an action today!</p>
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-btn swiper-c-button-next">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="swiper-btn swiper-c-button-prev">
+                <i class="fas fa-chevron-left"></i>
+              </div>
+            </div>
+            <div class="swiper-title">
+              <h1>Environmental, Social and Governance</h1>
+              <p>Overcoming the sustainability barriers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="card-slider" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 mt-5">
+            <h3 class="fs-3 fw-600">Featured global insights</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row px-0 mx-0">
+          <div class="col-12 px-0 pos-rel">
+            <div class="swiper article-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="main-card">
+                    <div class="image-wrapper">
+                      <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
+                    </div>
+                    <div class="text-wrapper p-4">
+                      <div class="card-tag darkgray">BUSINESS RESILENCE</div>
+                      <a href="#">
+                        <p class="fs-2 primary my-4 fw-600">
+                          Returning your business
+                        </p>
+                      </a>
+
+                      <br />
+                      <p class="card-info mt-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quis, temporibus?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-card">
+                    <div class="image-wrapper">
+                      <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
+                    </div>
+                    <div class="text-wrapper p-4">
+                      <div class="card-tag darkgray">BUSINESS RESILENCE</div>
+                      <a href="#">
+                        <p class="fs-2 primary my-4 fw-600">
+                          Returning your business
+                        </p>
+                      </a>
+
+                      <br />
+                      <p class="card-info mt-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quis, temporibus?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-card">
+                    <div class="image-wrapper">
+                      <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
+                    </div>
+                    <div class="text-wrapper p-4">
+                      <div class="card-tag darkgray">BUSINESS RESILENCE</div>
+                      <a href="#">
+                        <p class="fs-2 primary my-4 fw-600">
+                          Returning your business
+                        </p>
+                      </a>
+
+                      <br />
+                      <p class="card-info mt-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quis, temporibus?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-card">
+                    <div class="image-wrapper">
+                      <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
+                    </div>
+                    <div class="text-wrapper p-4">
+                      <div class="card-tag darkgray">BUSINESS RESILENCE</div>
+                      <a href="#">
+                        <p class="fs-2 primary my-4 fw-600">
+                          Returning your business
+                        </p>
+                      </a>
+
+                      <br />
+                      <p class="card-info mt-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quis, temporibus?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-card">
+                    <div class="image-wrapper">
+                      <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
+                    </div>
+                    <div class="text-wrapper p-4">
+                      <div class="card-tag darkgray">BUSINESS RESILENCE</div>
+                      <a href="#">
+                        <p class="fs-2 primary my-4 fw-600">
+                          Returning your business
+                        </p>
+                      </a>
+
+                      <br />
+                      <p class="card-info mt-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quis, temporibus?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-card">
+                    <div class="image-wrapper">
+                      <img src="./assets/img/client-behaviour-300x300.jpg" alt="Formula driver" />
+                    </div>
+                    <div class="text-wrapper p-4">
+                      <div class="card-tag darkgray">BUSINESS RESILENCE</div>
+                      <a href="#">
+                        <p class="fs-2 primary my-4 fw-600">
+                          Returning your business
+                        </p>
+                      </a>
+
+                      <br />
+                      <p class="card-info mt-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quis, temporibus?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-btn swiper-custom-button-next">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="swiper-btn swiper-custom-button-prev">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="info-firm">
+      <div class="container-fluid px-0">
+        <div class="row mx-0 px-0">
+          <div class="col-12 col-md-6 firm-image p-5 pos-rel">
+            <div class="firm-overlay"></div>
+            <p class="firm-title">What is trending?</p>
+            <div class="text-wrapper">
+              <span>IFRS</span>
+              <a href="#">Insights into IFRS 16</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 px-0">
+            <div class="link-wrapper primary-bg d-flex flex-column justify-content-around">
+              <div class="link-item">
+                <div class="link-title">IFRS 16</div>
+                <div class="link-text">
+                  <a href="#">Understanding the discount rate</a>
+                </div>
+              </div>
+              <div class="link-item">
+                <div class="link-title">
+                  International financial reporting ...
+                </div>
+                <div class="link-text">
+                  <a href="#">COVID 19: Debt modifications</a>
+                </div>
+              </div>
+              <div class="link-item">
+                <div class="link-title">
+                  International financial reporting ...
+                </div>
+                <div class="link-text">
+                  <a href="#">IAS 36 - Identifying cash-generating unit</a>
+                </div>
+              </div>
+              <div class="link-item">
+                <div class="link-title">
+                  International financial reporting ...
+                </div>
+                <div class="link-text">
+                  <a href="#">COVID 19: Government grants</a>
+                </div>
+              </div>
+              <div class="link-item">
+                <div class="link-title">IFRS 3</div>
+                <div class="link-text">
+                  <a href="#">The acquisition method at a glance</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <section id="breadcrumb-slider">
-        <div class="container-fluid px-0">
-          <div class="row px-0 mx-0">
-            <div class="col-12 pos-rel px-0">
-              <div class="swiper main-slider">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="text-wrapper">
-                      <p class="fs-2-5 fw-600">Lorem Ipsum Dolar</p>
-                      <p class="info">Take an action today!</p>
-                      <i class="fas fa-arrow-right"></i>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="text-wrapper">
-                      <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
-                      <p class="info">Take an action today!</p>
-                      <i class="fas fa-arrow-right"></i>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="text-wrapper">
-                      <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
-                      <p class="info">Take an action today!</p>
-                      <i class="fas fa-arrow-right"></i>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="text-wrapper">
-                      <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
-                      <p class="info">Take an action today!</p>
-                      <i class="fas fa-arrow-right"></i>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-btn swiper-c-button-next">
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-                <div class="swiper-btn swiper-c-button-prev">
-                  <i class="fas fa-chevron-left"></i>
-                </div>
+    </section>
+    <section id="news">
+      <div class="container">
+        <div class="row px-0 mx-0">
+          <div class="col-12 mb-5">
+            <p class="fs-3 fw-600">News</p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="news-card">
+              <div class="news-card--date">17 Dec 2021</div>
+              <div class="news-card--title">
+                <a href="#" class="primary">Lorem Ipsum In The Town</a>
               </div>
-              <div class="swiper-title">
-                <h1>Environmental, Social and Governance</h1>
-                <p>Overcoming the sustainability barriers</p>
+              <div class="news-card--text">
+                Lorem is having fun in Ipsum town lets join them Lorem is
+                having fun in Ipsum town lets join them Lorem is having fun in
+                Ipsum town lets join them
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section id="card-slider" class="">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-lg-4 mt-5">
-              <h3 class="fs-3 fw-600">Featured global insights</h3>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row px-0 mx-0">
-            <div class="col-12 px-0 pos-rel">
-              <div class="swiper article-swiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="main-card">
-                      <div class="image-wrapper">
-                        <img
-                          src="./assets/img/client-behaviour-300x300.jpg"
-                          alt="Formula driver"
-                        />
-                      </div>
-                      <div class="text-wrapper p-4">
-                        <div class="card-tag darkgray">BUSINESS RESILENCE</div>
-                        <a href="#">
-                          <p class="fs-2 primary my-4 fw-600">
-                            Returning your business
-                          </p>
-                        </a>
-
-                        <br />
-                        <p class="card-info mt-2">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Quis, temporibus?
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="main-card">
-                      <div class="image-wrapper">
-                        <img
-                          src="./assets/img/client-behaviour-300x300.jpg"
-                          alt="Formula driver"
-                        />
-                      </div>
-                      <div class="text-wrapper p-4">
-                        <div class="card-tag darkgray">BUSINESS RESILENCE</div>
-                        <a href="#">
-                          <p class="fs-2 primary my-4 fw-600">
-                            Returning your business
-                          </p>
-                        </a>
-
-                        <br />
-                        <p class="card-info mt-2">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Quis, temporibus?
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="main-card">
-                      <div class="image-wrapper">
-                        <img
-                          src="./assets/img/client-behaviour-300x300.jpg"
-                          alt="Formula driver"
-                        />
-                      </div>
-                      <div class="text-wrapper p-4">
-                        <div class="card-tag darkgray">BUSINESS RESILENCE</div>
-                        <a href="#">
-                          <p class="fs-2 primary my-4 fw-600">
-                            Returning your business
-                          </p>
-                        </a>
-
-                        <br />
-                        <p class="card-info mt-2">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Quis, temporibus?
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="main-card">
-                      <div class="image-wrapper">
-                        <img
-                          src="./assets/img/client-behaviour-300x300.jpg"
-                          alt="Formula driver"
-                        />
-                      </div>
-                      <div class="text-wrapper p-4">
-                        <div class="card-tag darkgray">BUSINESS RESILENCE</div>
-                        <a href="#">
-                          <p class="fs-2 primary my-4 fw-600">
-                            Returning your business
-                          </p>
-                        </a>
-
-                        <br />
-                        <p class="card-info mt-2">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Quis, temporibus?
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="main-card">
-                      <div class="image-wrapper">
-                        <img
-                          src="./assets/img/client-behaviour-300x300.jpg"
-                          alt="Formula driver"
-                        />
-                      </div>
-                      <div class="text-wrapper p-4">
-                        <div class="card-tag darkgray">BUSINESS RESILENCE</div>
-                        <a href="#">
-                          <p class="fs-2 primary my-4 fw-600">
-                            Returning your business
-                          </p>
-                        </a>
-
-                        <br />
-                        <p class="card-info mt-2">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Quis, temporibus?
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="main-card">
-                      <div class="image-wrapper">
-                        <img
-                          src="./assets/img/client-behaviour-300x300.jpg"
-                          alt="Formula driver"
-                        />
-                      </div>
-                      <div class="text-wrapper p-4">
-                        <div class="card-tag darkgray">BUSINESS RESILENCE</div>
-                        <a href="#">
-                          <p class="fs-2 primary my-4 fw-600">
-                            Returning your business
-                          </p>
-                        </a>
-
-                        <br />
-                        <p class="card-info mt-2">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Quis, temporibus?
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="col-12 col-lg-4">
+            <div class="news-card">
+              <div class="news-card--date">17 Dec 2021</div>
+              <div class="news-card--title">
+                <a href="#" class="primary">Lorem Ipsum In The Town</a>
               </div>
-              <div class="swiper-btn swiper-custom-button-next">
-                <i class="fas fa-arrow-right"></i>
-              </div>
-              <div class="swiper-btn swiper-custom-button-prev">
-                <i class="fas fa-arrow-left"></i>
+              <div class="news-card--text">
+                Lorem is having fun in Ipsum town lets join them Lorem is
+                having fun in Ipsum town lets join them Lorem is having fun in
+                Ipsum town lets join them
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section id="info-firm">
-        <div class="container-fluid px-0">
-          <div class="row mx-0 px-0">
-            <div class="col-12 col-md-6 firm-image p-5 pos-rel">
-              <div class="firm-overlay"></div>
-              <p class="firm-title">What is trending?</p>
-              <div class="text-wrapper">
-                <span>IFRS</span>
-                <a href="#">Insights into IFRS 16</a>
+          <div class="col-12 col-lg-4">
+            <div class="news-card">
+              <div class="news-card--date">17 Dec 2021</div>
+              <div class="news-card--title">
+                <a href="#" class="primary">Lorem Ipsum In The Town</a>
               </div>
-            </div>
-            <div class="col-12 col-md-6 px-0">
-              <div
-                class="link-wrapper primary-bg d-flex flex-column justify-content-around"
-              >
-                <div class="link-item">
-                  <div class="link-title">IFRS 16</div>
-                  <div class="link-text">
-                    <a href="#">Understanding the discount rate</a>
-                  </div>
-                </div>
-                <div class="link-item">
-                  <div class="link-title">
-                    International financial reporting ...
-                  </div>
-                  <div class="link-text">
-                    <a href="#">COVID 19: Debt modifications</a>
-                  </div>
-                </div>
-                <div class="link-item">
-                  <div class="link-title">
-                    International financial reporting ...
-                  </div>
-                  <div class="link-text">
-                    <a href="#">IAS 36 - Identifying cash-generating unit</a>
-                  </div>
-                </div>
-                <div class="link-item">
-                  <div class="link-title">
-                    International financial reporting ...
-                  </div>
-                  <div class="link-text">
-                    <a href="#">COVID 19: Government grants</a>
-                  </div>
-                </div>
-                <div class="link-item">
-                  <div class="link-title">IFRS 3</div>
-                  <div class="link-text">
-                    <a href="#">The acquisition method at a glance</a>
-                  </div>
-                </div>
+              <div class="news-card--text">
+                Lorem is having fun in Ipsum town lets join them Lorem is
+                having fun in Ipsum town lets join them Lorem is having fun in
+                Ipsum town lets join them
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section id="news">
-        <div class="container">
-          <div class="row px-0 mx-0">
-            <div class="col-12 mb-5">
-              <p class="fs-3 fw-600">News</p>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="news-card">
-                <div class="news-card--date">17 Dec 2021</div>
-                <div class="news-card--title">
-                  <a href="#" class="primary">Lorem Ipsum In The Town</a>
-                </div>
-                <div class="news-card--text">
-                  Lorem is having fun in Ipsum town lets join them Lorem is
-                  having fun in Ipsum town lets join them Lorem is having fun in
-                  Ipsum town lets join them
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="news-card">
-                <div class="news-card--date">17 Dec 2021</div>
-                <div class="news-card--title">
-                  <a href="#" class="primary">Lorem Ipsum In The Town</a>
-                </div>
-                <div class="news-card--text">
-                  Lorem is having fun in Ipsum town lets join them Lorem is
-                  having fun in Ipsum town lets join them Lorem is having fun in
-                  Ipsum town lets join them
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="news-card">
-                <div class="news-card--date">17 Dec 2021</div>
-                <div class="news-card--title">
-                  <a href="#" class="primary">Lorem Ipsum In The Town</a>
-                </div>
-                <div class="news-card--text">
-                  Lorem is having fun in Ipsum town lets join them Lorem is
-                  having fun in Ipsum town lets join them Lorem is having fun in
-                  Ipsum town lets join them
-                </div>
-              </div>
-            </div>
-            <div class="col-12 text-end py-5">
-              <a id="viewAll" href="#"
-                >View All <i class="fas fa-arrow-right"></i
-              ></a>
-            </div>
+          <div class="col-12 text-end py-5">
+            <a id="viewAll" href="#">View All <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-      </section>
-      <section id="inside-breadcrumb">
-        <div class="container">
-          <div class="row mx-0 px-0 h-60v align-items-center">
-            <div class="col-12 col-lg-5 company-info">
-              <p class="company--slogan fs-2">THE LOREM IPSUM IMPERIUM</p>
-              <p class="company--name">Inside Lorem Master</p>
-              <p class="company--text">
-                Step out of this world if you want to stay alive and type lorem
-                for the rest of your life
+      </div>
+    </section>
+    <section id="inside-breadcrumb">
+      <div class="container">
+        <div class="row mx-0 px-0 h-60v align-items-center">
+          <div class="col-12 col-lg-5 company-info">
+            <p class="company--slogan fs-2">THE LOREM IPSUM IMPERIUM</p>
+            <p class="company--name">Inside Lorem Master</p>
+            <p class="company--text">
+              Step out of this world if you want to stay alive and type lorem
+              for the rest of your life
+            </p>
+            <a href="#">
+              <button class="default-btn btn-w border-w">Step Inside</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="container-fluid px-0 mx-0">
+        <div class="row px-0 mx-0">
+          <div class="col-12 col-lg-6 primary-bg h-100v d-flex justify-content-center align-items-center px-50">
+            <div class="exp-cont grad-container">
+              <p class="title">GRADUATES</p>
+              <p class="info">Unlock your potential</p>
+              <p class="text">
+                Lorem is very fun and charming, if you can learn it you will
+                be victorious
               </p>
-              <a href="#">
-                <button class="default-btn btn-w border-w">Step Inside</button>
+              <a class="btn-cont" href="./student-career.html">
+                <button class="default-btn btn-w">
+                  Unlock you potential now
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 exp-cont h-100v d-flex justify-content-center align-items-center px-50">
+            <div class="exp-cont hires-container">
+              <p class="title">EXPERIENCED HIRES</p>
+              <p class="info">Got the experience?</p>
+              <p class="text">
+                Lorem is very fun and charming, if you can learn it you will
+                be victorious
+              </p>
+              <a class="btn-cont" href="./student-career.html">
+                <button class="default-btn btn-r">
+                  Fullfill your potential
+                </button>
               </a>
             </div>
           </div>
         </div>
-      </section>
-      <section id="experience">
-        <div class="container-fluid px-0 mx-0">
-          <div class="row px-0 mx-0">
-            <div
-              class="col-12 col-lg-6 primary-bg h-100v d-flex justify-content-center align-items-center px-50"
-            >
-              <div class="exp-cont grad-container">
-                <p class="title">GRADUATES</p>
-                <p class="info">Unlock your potential</p>
-                <p class="text">
-                  Lorem is very fun and charming, if you can learn it you will
-                  be victorious
-                </p>
-                <a class="btn-cont" href="./student-career.html">
-                  <button class="default-btn btn-w">
-                    Unlock you potential now
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div
-              class="col-12 col-lg-6 exp-cont h-100v d-flex justify-content-center align-items-center px-50"
-            >
-              <div class="exp-cont hires-container">
-                <p class="title">EXPERIENCED HIRES</p>
-                <p class="info">Got the experience?</p>
-                <p class="text">
-                  Lorem is very fun and charming, if you can learn it you will
-                  be victorious
-                </p>
-                <a class="btn-cont" href="./student-career.html">
-                  <button class="default-btn btn-r">
-                    Fullfill your potential
-                  </button>
-                </a>
-              </div>
-            </div>
+      </div>
+    </section>
+  </main>
+  <footer class="primary-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-2 desk-footer">
+          <div class="link-wrapper">
+            <p class="title fs-2-5 fw-600">Connect</p>
+            <a href="#">Meet our people</a>
+            <a href="#">Contact us</a>
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="primary-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-2 desk-footer">
-            <div class="link-wrapper">
-              <p class="title fs-2-5 fw-600">Connect</p>
+        <div class="col-12 col-lg-2 desk-footer">
+          <div class="link-wrapper">
+            <p class="title fw-600">About</p>
+            <a href="./about-us.html">Haqqımızda</a>
+            <a href="#">Careers</a>
+            <a href="#">Insights</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-2 desk-footer">
+          <div class="link-wrapper">
+            <p class="title fw-600">Legal</p>
+            <a href="#">Privacy</a>
+            <a href="#">Cookie policy</a>
+            <a href="#">Disclaimer</a>
+          </div>
+        </div>
+        <div class="col-12 mobile-footer my-5">
+          <div class="accardion px-5">
+            <div class="accardion-title d-flex justify-content-between align-items-center">
+              <p>Connect</p>
+              <div class="accardion-icon-wrapper">
+                <div class="top"></div>
+                <div class="bot"></div>
+              </div>
+            </div>
+            <div class="accardion-text d-flex flex-column">
               <a href="#">Meet our people</a>
               <a href="#">Contact us</a>
             </div>
           </div>
-          <div class="col-12 col-lg-2 desk-footer">
-            <div class="link-wrapper">
-              <p class="title fw-600">About</p>
-              <a href="./about-us.html">Haqqımızda</a>
+        </div>
+        <div class="col-12 mobile-footer my-5">
+          <div class="accardion px-5">
+            <div class="accardion-title d-flex justify-content-between align-items-center">
+              <p>About</p>
+              <div class="accardion-icon-wrapper">
+                <div class="top"></div>
+                <div class="bot"></div>
+              </div>
+            </div>
+            <div class="accardion-text d-flex flex-column">
+              <a href="#">About us</a>
               <a href="#">Careers</a>
               <a href="#">Insights</a>
             </div>
           </div>
-          <div class="col-12 col-lg-2 desk-footer">
-            <div class="link-wrapper">
-              <p class="title fw-600">Legal</p>
+        </div>
+        <div class="col-12 mobile-footer my-5">
+          <div class="accardion px-5">
+            <div class="accardion-title d-flex justify-content-between align-items-center">
+              <p>LEGAL</p>
+              <div class="accardion-icon-wrapper">
+                <div class="top"></div>
+                <div class="bot"></div>
+              </div>
+            </div>
+            <div class="accardion-text d-flex flex-column">
               <a href="#">Privacy</a>
               <a href="#">Cookie policy</a>
               <a href="#">Disclaimer</a>
             </div>
           </div>
-          <div class="col-12 mobile-footer my-5">
-            <div class="accardion px-5">
-              <div
-                class="accardion-title d-flex justify-content-between align-items-center"
-              >
-                <p>Connect</p>
-                <div class="accardion-icon-wrapper">
-                  <div class="top"></div>
-                  <div class="bot"></div>
-                </div>
-              </div>
-              <div class="accardion-text d-flex flex-column">
-                <a href="#">Meet our people</a>
-                <a href="#">Contact us</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 mobile-footer my-5">
-            <div class="accardion px-5">
-              <div
-                class="accardion-title d-flex justify-content-between align-items-center"
-              >
-                <p>About</p>
-                <div class="accardion-icon-wrapper">
-                  <div class="top"></div>
-                  <div class="bot"></div>
-                </div>
-              </div>
-              <div class="accardion-text d-flex flex-column">
-                <a href="#">About us</a>
-                <a href="#">Careers</a>
-                <a href="#">Insights</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 mobile-footer my-5">
-            <div class="accardion px-5">
-              <div
-                class="accardion-title d-flex justify-content-between align-items-center"
-              >
-                <p>LEGAL</p>
-                <div class="accardion-icon-wrapper">
-                  <div class="top"></div>
-                  <div class="bot"></div>
-                </div>
-              </div>
-              <div class="accardion-text d-flex flex-column">
-                <a href="#">Privacy</a>
-                <a href="#">Cookie policy</a>
-                <a href="#">Disclaimer</a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-12 col-lg-6 social-icons d-flex justify-content-around"
-          >
-            <a href="#">
-              <i class="fab fa-youtube"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
-          <div class="col-12 footer-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-            deleniti debitis minima sapiente? Recusandae, magnam natus! Id nisi,
-            culpa fuga quasi rerum sed sunt enim aut magni voluptatibus nobis
-            nulla. Sint amet vero facilis. Asperiores iure at nihil, in
-            necessitatibus nesciunt? Iste exercitationem dignissimos,
-            praesentium perferendis accusamus facere alias accusantium, dolores
-            explicabo voluptas velit assumenda! Non cupiditate exercitationem a
-            quae.
-          </div>
+        </div>
+        <div class="col-12 col-lg-6 social-icons d-flex justify-content-around">
+          <a href="#">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="col-12 footer-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+          deleniti debitis minima sapiente? Recusandae, magnam natus! Id nisi,
+          culpa fuga quasi rerum sed sunt enim aut magni voluptatibus nobis
+          nulla. Sint amet vero facilis. Asperiores iure at nihil, in
+          necessitatibus nesciunt? Iste exercitationem dignissimos,
+          praesentium perferendis accusamus facere alias accusantium, dolores
+          explicabo voluptas velit assumenda! Non cupiditate exercitationem a
+          quae.
         </div>
       </div>
-    </footer>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./src/index.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./src/index.js"></script>
+</body>
+
 </html>
