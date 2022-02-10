@@ -51,6 +51,9 @@ body > * {
 .fs-3-5 {
   font-size: 3.5rem;
 }
+.fs-40 {
+  font-size: 40px;
+}
 
 .fw-500 {
   font-weight: 500;
@@ -69,6 +72,12 @@ body > * {
 }
 .lh-30 {
   line-height: 3rem;
+}
+.ml-70 {
+  margin-left: 70px;
+}
+.mt-44 {
+  margin-top: 44px;
 }
 /* Setting Default Font -- End */
 
@@ -371,7 +380,7 @@ body > * {
   margin: 20px 0;
 }
 .news-card .news-card--title a {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 .news-card .news-card--title a:hover {
@@ -695,7 +704,7 @@ main #inside-breadcrumb {
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 500px;
 }
 
 main #inside-breadcrumb .company-info {
@@ -1001,7 +1010,7 @@ main #experience .hires-container .title {
   height: 393px;
   background-color: #fff;
   padding: 10px;
-  flex-basis: 55%;
+  flex-basis: 100%;
 }
 #service-panel .side-card {
   margin-left: auto;
@@ -1060,7 +1069,6 @@ main #experience .hires-container .title {
   padding: 60px;
 }
 .related-articles {
-  margin-top: 30rem;
   padding-left: 30px;
 }
 #industry-breadcrumb {
@@ -1249,6 +1257,24 @@ main #experience .hires-container .title {
 
   color: #1d314b;
 }
+
+/* seo about us */
+
+#seo-about p {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+#seo-about img {
+  width: 150px;
+  height: 100%;
+}
+
+/* seo about us end */
 
 /* Contact-page Styling --end  */
 /* Styling Footer -- Start  */

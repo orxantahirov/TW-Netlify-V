@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template WS</title>
+
+    <script defer src="https://kit.fontawesome.com/407b7a1280.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row justify-content-between align-items-center top-header">
+                <div class="col-5 mini-logo">
+                    <a href="./index.html">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/logo-mini.webp" alt="logo of company" />
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5">
+                    <a href="#">
+                        <div class="image-wrapper logo">
+                            <img src="./assets/img/logo-w-text.webp" alt="logo of company" />
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 desk-nav justify-content-end">
+                    <div class="icon-box d-flex justify-content-end align-items-center">
+                        <a href="#" class="hover-cc primary">
+                            Find your local member firm
+                        </a>
+                        <a href="#"><i class="fas fa-bookmark primary hover-cc"></i></a>
+                        <a href="#"><i class="fas fa-globe-europe primary hover-cc"></i>
+                        </a>
+                        <a href="#"><i class="fas fa-search primary hover-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-0">
+            <div class="bot-header desk-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5">
+                            <nav class="d-flex justify-content-between">
+                                <a href="./about-us.html" class="primary hover-cc sub-primary">
+                                    Haqqımızda
+                                </a>
+                                <a href="./contact.html" class="primary hover-cc sub-primary">
+                                    Əlaqə
+                                </a>
+                                <a href="#" class="primary hover-cc menu-act" data-show="services">
+                                    Xidmətlər
+                                </a>
+                                <div class="menu services d-flex" data-toggle="services-menu">
+                                    <div class="col-3 lightgray-bg menu-nav-left">
+                                        <div class="wrapper d-flex flex-column align-items-end px-5">
+                                            <a href="./services-tax.html" class="primary hover-cc sub-act mt-3"
+                                                data-toggle="audit-menu">Audit
+                                                Xidmətləri</a>
+                                            <a href="./services-tax.html" class="primary hover-cc sub-act"
+                                                data-toggle="tax-menu">Vergi
+                                                Xidmətləri</a>
+                                            <a href="./services-advisory.html" class="primary hover-cc sub-act"
+                                                data-toggle="advisory-menu">Məsləhət Xidmətləri</a>
+                                            <a href="./services-accountment.html" class="primary hover-cc sub-act"
+                                                data-toggle="assurance-menu">Muhasibatlıq Xidmətləri</a>
+
+                                            <a href="./services-advisory.html" class="primary hover-cc sub-act"
+                                                data-toggle="advisory-menu">Xarici ticarət və gömrük xidmətləri</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 audit-menu sub-menu gray-bg d-flex d-none">
+                                        <div class="col-7">
+                                            <div class="wrapper d-flex flex-column align-items-start px-5 ms-5">
+                                                <p class="title mt-1">Audit xidmətləri</p>
+                                                <a href="./services-tax-3.html" class="primary hover-cc">Vergi
+                                                    hesabatlarının auditi</a>
+                                                <a href="./services-tax-1.html" class="primary hover-cc">Maliyyə
+                                                    hesabatlarının auditi</a>
+                                                <a href="./services-tax-4.html" class="primary hover-cc">Əmlakın
+                                                    qiymətləndirilməsinin
+                                                    auditi</a>
+                                                <a href="./services-tax-2.html" class="primary hover-cc">Nizamnamə
+                                                    kapitalının
+                                                    formalaşdırılmasın auditi</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-5 p-5 ms-5">
+                                            <div class="main-card">
+                                                <div class="image-wrapper">
+                                                    <img src="./assets/img/client-behaviour-300x300.jpg"
+                                                        alt="Formula driver" />
+                                                </div>
+                                                <div class="text-wrapper p-4">
+                                                    <div class="card-tag darkgray">
+                                                        BUSINESS RESILENCE
+                                                    </div>
+                                                    <a href="#">
+                                                        <p class="fs-2 primary my-4 fw-600">
+                                                            Returning your business
+                                                        </p>
+                                                    </a>
+
+                                                    <br />
+                                                    <p class="card-info mt-2">
+                                                        Lorem ipsum dolor sit amet consectetur,
+                                                        adipisicing elit. Quis, temporibus?
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 tax-menu sub-menu gray-bg d-flex d-none">
+                                        <div class="col-7">
+                                            <div class="wrapper d-flex flex-column align-items-start px-5 ms-5">
+                                                <p class="title mt-1">Vergi xidmətləri</p>
+                                                <a href="./services-tax-1.html" class="primary hover-cc">Vergi auditi
+                                                    xidmətləri</a>
+                                                <a href="./services-tax-2.html" class="primary hover-cc">Vergi məsləhət
+                                                    xidmətləri</a>
+                                                <a href="./services-tax-3.html" class="primary hover-cc">Vergi
+                                                    planlaması xidmətləri</a>
+                                                <a href="./services-tax-4.html" class="primary hover-cc">Vergi sahəsində
+                                                    sair xidmətlər</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-5 p-5 ms-5">
+                                            <div class="main-card">
+                                                <div class="image-wrapper">
+                                                    <img src="./assets/img/client-behaviour-300x300.jpg"
+                                                        alt="Formula driver" />
+                                                </div>
+                                                <div class="text-wrapper p-4">
+                                                    <div class="card-tag darkgray">
+                                                        BUSINESS RESILENCE
+                                                    </div>
+                                                    <a href="#">
+                                                        <p class="fs-2 primary my-4 fw-600">
+                                                            Returning your business
+                                                        </p>
+                                                    </a>
+
+                                                    <br />
+                                                    <p class="card-info mt-2">
+                                                        Lorem ipsum dolor sit amet consectetur,
+                                                        adipisicing elit. Quis, temporibus?
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 assurance-menu sub-menu gray-bg d-flex">
+                                        <div class="col-7">
+                                            <div class="wrapper d-flex flex-column align-items-start px-5 ms-5">
+                                                <p class="title mt-1">Muhasibatlıq xidmətləri</p>
+                                                <a href="./services-accountment-2.html" class="primary hover-cc">Maliyyə
+                                                    uçotunun üzrə autsors
+                                                    xidmətləri</a>
+                                                <a href="./services-accountment-1.html"
+                                                    class="primary hover-cc">Muhasibat uçotunun üzrə autsors
+                                                    xidməti</a>
+
+                                                <a href="./services-accountment-3.html" class="primary hover-cc">Şirkət
+                                                    rəhbərliyinə xərclər və
+                                                    gəlirlilik haqqında
+                                                    hesabatların hazırlanması</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-5 p-5 ms-5">
+                                            <div class="main-card">
+                                                <div class="image-wrapper">
+                                                    <img src="./assets/img/client-behaviour-300x300.jpg"
+                                                        alt="Formula driver" />
+                                                </div>
+                                                <div class="text-wrapper p-4">
+                                                    <div class="card-tag darkgray">
+                                                        BUSINESS RESILENCE
+                                                    </div>
+                                                    <a href="#">
+                                                        <p class="fs-2 primary my-4 fw-600">
+                                                            Returning your business
+                                                        </p>
+                                                    </a>
+
+                                                    <br />
+                                                    <p class="card-info mt-2">
+                                                        Lorem ipsum dolor sit amet consectetur,
+                                                        adipisicing elit. Quis, temporibus?
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 advisory-menu gray-bg d-flex d-none">
+                                        <div class="col-7">
+                                            <div class="wrapper d-flex flex-column align-items-start px-5 ms-5"></div>
+                                        </div>
+                                        <div class="col-5 p-5 ms-5"></div>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="primary hover-cc menu-act" data-show="industries">
+                                    Sahələr
+                                </a>
+                                <div class="menu industries d-flex" data-toggle="services-menu">
+                                    <div class="col-3 lightgray-bg menu-nav-left">
+                                        <div class="wrapper d-flex flex-column align-items-end px-5">
+                                            <a href="#" class="primary hover-cc mt-3">Təhsil</a>
+                                            <a href="#" class="primary hover-cc">Hotel və Turizm</a>
+                                            <a href="#" class="primary hover-cc">İstehsalat sahəsi</a>
+                                            <a href="#" class="primary hover-cc">Maliyyə qurumları</a>
+                                            <a href="#" class="primary hover-cc">Kənd Təsərüfatı, emal</a>
+                                            <a href="#" class="primary hover-cc">Tikinti və əmlak sahəsi</a>
+                                            <a href="#" class="primary hover-cc">Ticarət və Pərakəndəçilik</a>
+                                            <a href="./industries-sub-page.html" class="primary hover-cc">Xəstəxanalar
+                                                və hospitallar</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-9 sub-menu gray-bg d-flex d-none"></div>
+                                    <!-- <div
+                      class="col-9 assuranceInd-menu sub-menu gray-bg d-flex"
+                    >
+                      <div class="col-7">
+                        <div
+                          class="wrapper d-flex flex-column align-items-start px-5 ms-5"
+                        >
+                          <p class="title">Assurance</p>
+                          <a href="#" class="primary hover-cc"
+                            >Business consulting services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business process solutions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business risk services</a
+                          >
+                          <a href="#" class="primary hover-cc">Cybersecurity</a>
+                          <a href="#" class="primary hover-cc"
+                            >Forensic and investigation services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Mergers and acquisitions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Recovery and reorganisation</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Transactional advisory services</a
+                          >
+                          <a href="#" class="primary hover-cc">Valuations</a>
+                        </div>
+                      </div>
+                      <div class="col-5 p-5 ms-5">
+                        <div class="main-card">
+                          <div class="image-wrapper">
+                            <img
+                              src="./assets/img/client-behaviour-300x300.jpg"
+                              alt="Formula driver"
+                            />
+                          </div>
+                          <div class="text-wrapper p-4">
+                            <div class="card-tag darkgray">
+                              BUSINESS RESILENCE
+                            </div>
+                            <a href="#">
+                              <p class="fs-2 primary my-4 fw-600">
+                                Returning your business
+                              </p>
+                            </a>
+
+                            <br />
+                            <p class="card-info mt-2">
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Quis, temporibus?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-9 taxInd-menu sub-menu gray-bg d-flex d-none"
+                    >
+                      <div class="col-7">
+                        <div
+                          class="wrapper d-flex flex-column align-items-start px-5 ms-5"
+                        >
+                          <p class="title">Tax</p>
+                          <a href="#" class="primary hover-cc"
+                            >Business consulting services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business process solutions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business risk services</a
+                          >
+                          <a href="#" class="primary hover-cc">Cybersecurity</a>
+                          <a href="#" class="primary hover-cc"
+                            >Forensic and investigation services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Mergers and acquisitions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Recovery and reorganisation</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Transactional advisory services</a
+                          >
+                          <a href="#" class="primary hover-cc">Valuations</a>
+                        </div>
+                      </div>
+                      <div class="col-5 p-5 ms-5">
+                        <div class="main-card">
+                          <div class="image-wrapper">
+                            <img
+                              src="./assets/img/client-behaviour-300x300.jpg"
+                              alt="Formula driver"
+                            />
+                          </div>
+                          <div class="text-wrapper p-4">
+                            <div class="card-tag darkgray">
+                              BUSINESS RESILENCE
+                            </div>
+                            <a href="#">
+                              <p class="fs-2 primary my-4 fw-600">
+                                Returning your business
+                              </p>
+                            </a>
+
+                            <br />
+                            <p class="card-info mt-2">
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Quis, temporibus?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                                </div>
+                                <!-- <a href="#" class="primary hover-cc sub-primary">
+                    Insights
+                  </a> -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="gray-bg">
+        <section id="service-head" class="pos-rel py-5">
+            <div class="container">
+                <div class="row">
+                    <div class=" d-flex align-items-center">
+                        <i class="fs-1-7 primary fas fa-home hover-cc me-5"></i>
+                        <p class="fs-1-9 primary hover-cc custom-before me-5">
+                            Xidmətlərimiz
+                        </p>
+                        <p class="fs-1-9 primary hover-cc custom-before">CEO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service-breadcrumb" class="white-bg">
+            <div class="container pos-rel white-bg background ">
+                <div class="row background-height align-items-center">
+                    <div class="col-6   fw-600 service-title">CEO</div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="seo-about" class="py-5 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Stockholm</p>
+                        <p>September, 2021</p>
+                        <p class="mt-70">As the COVID-19 pandemic continues to impact societies around the world, I am
+                            increasingly
+                            proud of the collective resilience shown by Grant Thornton member firms as they respond to
+                            these unique challenges while continuing to support their people and clients. As we share
+                            our experiences and learnings with each other the network is more connected today than ever
+                            before.</p>
+                        <p class="my-5">This year we launched our Go Beyond network strategy 2025.</p>
+                        <p>The strategy is designed to grow and protect the Grant Thornton network with a particular
+                            focus on risk management and quality, alongside the development of strategic capabilities
+                            and an international network culture. It is an intentional shift toward greater alignment on
+                            common methodologies, learning, technology platforms and culture.</p>
+                        <p class="my-5">It will guide the direction of the global network through to 2025, as we
+                            continually work to
+                            improve the sustainability and inclusiveness of our own operations and strive to make a
+                            positive impact on the clients, people, markets and communities where we operate - in line
+                            with the United Nations Sustainable Development Goals.
+                        </p>
+                        <p class="my-5">I strongly believe the private sector has a responsibility to deliver
+                            sustainable business
+                            solutions and, as a professional services organisation, we must play a pivotal role in
+                            progressing the sustainability agenda.</p>
+                        <p class="my-5">With 58,000 people in over 130 countries, Grant Thornton is committed to going
+                            beyond
+                            business as usual to deliver a different experience. More personal, agile and proactive. Our
+                            open-minded culture leaves space for a diverse range of opinions and we will continue to
+                            challenge conventional thinking to find better solutions. So our people, clients and
+                            communities can positively shape tomorrow.</p>
+                        <div>
+                            <img src="assets/img/about-us/sign.png" alt="">
+                        </div>
+                        <p class="mt-4">CEO, Grant Thornton International Ltd</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="primary-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-2 desk-footer">
+                    <div class="link-wrapper">
+                        <p class="title fs-2-5 fw-600">Connect</p>
+                        <a href="#">Meet our people</a>
+                        <a href="#">Contact us</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 desk-footer">
+                    <div class="link-wrapper">
+                        <p class="title fw-600">About</p>
+                        <a href="./about-us.html">Haqqımızda</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Insights</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 desk-footer">
+                    <div class="link-wrapper">
+                        <p class="title fw-600">Legal</p>
+                        <a href="#">Privacy</a>
+                        <a href="#">Cookie policy</a>
+                        <a href="#">Disclaimer</a>
+                    </div>
+                </div>
+                <div class="col-12 mobile-footer my-5">
+                    <div class="accardion px-5">
+                        <div class="accardion-title d-flex justify-content-between align-items-center">
+                            <p>Connect</p>
+                            <div class="accardion-icon-wrapper">
+                                <div class="top"></div>
+                                <div class="bot"></div>
+                            </div>
+                        </div>
+                        <div class="accardion-text d-flex flex-column">
+                            <a href="#">Meet our people</a>
+                            <a href="#">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mobile-footer my-5">
+                    <div class="accardion px-5">
+                        <div class="accardion-title d-flex justify-content-between align-items-center">
+                            <p>About</p>
+                            <div class="accardion-icon-wrapper">
+                                <div class="top"></div>
+                                <div class="bot"></div>
+                            </div>
+                        </div>
+                        <div class="accardion-text d-flex flex-column">
+                            <a href="#">About us</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Insights</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mobile-footer my-5">
+                    <div class="accardion px-5">
+                        <div class="accardion-title d-flex justify-content-between align-items-center">
+                            <p>LEGAL</p>
+                            <div class="accardion-icon-wrapper">
+                                <div class="top"></div>
+                                <div class="bot"></div>
+                            </div>
+                        </div>
+                        <div class="accardion-text d-flex flex-column">
+                            <a href="#">Privacy</a>
+                            <a href="#">Cookie policy</a>
+                            <a href="#">Disclaimer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 social-icons d-flex justify-content-center">
+                    <a href="#">
+                        <i class="fab fa-youtube fs-40 ml-70"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in fs-40 ml-70"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter fs-40 ml-70"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram fs-40 ml-70"></i>
+                    </a>
+                </div>
+                <div class="col-12 footer-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                    deleniti debitis minima sapiente? Recusandae, magnam natus! Id nisi,
+                    culpa fuga quasi rerum sed sunt enim aut magni voluptatibus nobis
+                    nulla. Sint amet vero facilis. Asperiores iure at nihil, in
+                    necessitatibus nesciunt? Iste exercitationem dignissimos,
+                    praesentium perferendis accusamus facere alias accusantium, dolores
+                    explicabo voluptas velit assumenda! Non cupiditate exercitationem a
+                    quae.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
