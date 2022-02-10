@@ -399,6 +399,11 @@ body > * {
 header {
   padding: 20px 0;
   position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
 }
 
 header .top-header {
