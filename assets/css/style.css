@@ -780,7 +780,7 @@ main #experience .hires-container .title {
 }
 .page-location {
   position: absolute;
-  top: 50px;
+  top: 250px;
   max-width: 248px;
   gap: 30px;
   padding: 10px 15px;
@@ -804,11 +804,14 @@ main #experience .hires-container .title {
   line-height: 2.4rem;
   letter-spacing: 5px;
   text-transform: uppercase;
+  position: relative;
+  top: 200px;
 }
 .breadcrumb--text {
   font-size: 8rem;
   font-weight: 600;
   letter-spacing: 5px;
+  padding-top: 280px;
 }
 .breadcrumb--nav {
   background-color: var(--primary);

@@ -218,3 +218,8 @@
     color: #001219;
   }
 }
+@media screen and (min-width: 280px) and (max-width: 993px) {
+  .breadcrumb--title {
+    top: 150px;
+  }
+}
