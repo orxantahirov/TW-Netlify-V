@@ -54,6 +54,9 @@ body > * {
 .fs-40 {
   font-size: 40px;
 }
+.fs-2-4 {
+  font-size: 2.4rem;
+}
 
 .fw-500 {
   font-weight: 500;
@@ -1027,6 +1030,9 @@ main #experience .hires-container .title {
   flex-basis: 35%;
   overflow: hidden;
 }
+#service-panel p {
+  line-height: 3.2rem;
+}
 .side-card-social {
   margin-left: auto;
   display: flex;
@@ -1096,6 +1102,19 @@ main #experience .hires-container .title {
 }
 #get-in-touch {
   padding: 50px 0;
+}
+#get-in-touch-2 {
+  background-color: #1db954;
+  padding: 50px 0;
+  margin: 50px 0;
+}
+#get-in-touch-2 h3 {
+  font-size: 3.6rem;
+  color: #fff;
+}
+#get-in-touch-2 p {
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 .insight-card-img {
