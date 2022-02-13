@@ -88,7 +88,20 @@
     order: 0;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .mobile {
+    flex-direction: row;
+  }
+  .mobile-2 {
+    flex-direction: column;
+  }
+  .fs-40 {
+    font-size: 30px;
+  }
+  .ml-40 {
+    margin-left: 40px !important;
+  }
+}
 /* Large */
 @media screen and (min-width: 992px) {
   html {

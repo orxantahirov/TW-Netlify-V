@@ -36,6 +36,9 @@ body > * {
 .fs-1-7 {
   font-size: 1.7rem;
 }
+.fs-1-8 {
+  font-size: 1.8rem;
+}
 .fs-1-9 {
   font-size: 1.9rem;
 }
@@ -81,6 +84,9 @@ body > * {
 }
 .mt-44 {
   margin-top: 44px;
+}
+.mt-60 {
+  margin-top: 60px;
 }
 /* Setting Default Font -- End */
 
@@ -418,10 +424,10 @@ header .mini-logo {
   max-height: 43px;
 }
 
-header .logo {
+/* header .logo {
   width: 455px;
   height: 43px;
-}
+} */
 
 header a {
   font-size: 2rem;
@@ -453,6 +459,9 @@ header .menu .wrapper {
 header .menu .wrapper a {
   margin-bottom: 15px;
   font-size: 1.7rem;
+}
+header .image-wrapper img {
+  width: 130px;
 }
 .menu-nav-left {
   padding-right: 30px;
@@ -604,8 +613,8 @@ main #card-slider .swiper-custom-button-prev {
 }
 
 main #info-firm .firm-image {
-  background-image: url("../img/FA-CONS-ROOM.jpg");
-  background-color: rgba(255, 255, 255, 0.75);
+  background-image: url("../img/location.jpg");
+  background-color: rgb(213 219 201 / 75%);
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
@@ -1175,6 +1184,38 @@ main #experience .hires-container .title {
 .career-button:hover::after {
   transform: scaleX(0);
 }
+.career-right {
+  background-color: #fff;
+}
+
+.career-social li {
+  list-style-type: none !important;
+}
+.career-bg {
+  background-color: #fff;
+}
+.career-bg span {
+  font-size: 1.4rem;
+  line-height: 125%;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin: 0 0 15px 0;
+}
+.career-bg p {
+  color: #000;
+  font-size: 2rem;
+  line-height: normal;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.career-bg a {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #1db954;
+}
+.pd-career {
+  padding: 30px 25px 10px 15px;
+}
 /* About Page Styling -- End */
 /* Contact Page Styling -- Start  */
 .contact-title {
@@ -1299,6 +1340,51 @@ main #experience .hires-container .title {
 }
 
 /* seo about us end */
+#create-card {
+  padding: 50px 0;
+}
+.card-text {
+  background-color: #fff;
+  padding: 24px;
+}
+.card-text a {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #1db954;
+  margin-top: 24px;
+}
+#create-card h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #74767a;
+  font-size: 1.6rem;
+}
+#create-card h2 {
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  position: relative;
+  top: 30px;
+}
+#create-card img {
+  width: 100%;
+}
+#create-card button:hover {
+  color: #fff !important;
+  background-color: #1db954;
+}
+#create-card h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+  color: #000;
+}
+
+#create-card span {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #4d4d4d;
+  margin-top: 12px;
+}
 
 /* Contact-page Styling --end  */
 /* Styling Footer -- Start  */
