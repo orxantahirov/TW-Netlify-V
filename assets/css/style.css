@@ -781,6 +781,47 @@ main #experience .hires-container {
 main #experience .hires-container .title {
   color: #000;
 }
+.extended-search-bar__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.extended-search-bar__container button {
+  padding: 23px 60px;
+  outline: none;
+  border: none;
+  background: #1db954;
+  color: #fff;
+  font-size: 21px;
+  cursor: pointer;
+}
+.extended-search-link {
+  background: #1db954;
+  padding: 15px 20px;
+}
+.form-check label {
+  font-size: 20px;
+}
+.extended-search-link a {
+  font-size: 25px;
+  color: white;
+}
+.extended-search-bar-form {
+  width: 700px;
+  padding: 25px 30px;
+  border: none;
+  background: aliceblue;
+  outline: none;
+}
+.form-insight {
+  text-align: center;
+  padding: 30px;
+  background-color: #e0dddd38;
+}
+.pt-30 {
+  padding-top: 30px;
+}
 /*Styling Main -- End */
 
 /* About Page Styling -- Start*/
