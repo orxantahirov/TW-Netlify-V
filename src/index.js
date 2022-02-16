@@ -243,15 +243,11 @@ $(document).ready(function () {
   });
 });
 
-// $(window).on("scroll", function () {
-//   if ($(window).scrollTop() > 30) {
-//     $("#first").addClass("bg-black");
-//     $(".logo").attr("src", "img/Logo-white.png");
-//     $(".hamburger-menu").addClass("active");
-//   } else {
-//     //remove the background property so it comes transparent again (defined in your css)
-//     $("#first").removeClass("bg-black");
-//     $(".logo").attr("src", "img/logo.png");
-//     $(".hamburger-menu").removeClass("active");
-//   }
-// });
+$(window).on("scroll", function () {
+  if ($(window).scrollTop() > 300) {
+    $(".header-top").addClass("header-none");
+  } else {
+    // $(".header-top").addClass("header-top");
+    $(".header-top").removeClass("header-none");
+  }
+});

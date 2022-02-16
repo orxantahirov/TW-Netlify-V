@@ -418,16 +418,28 @@ header {
 header .top-header {
   height: 110px;
 }
-
-header .mini-logo {
-  position: absolute;
-  max-height: 43px;
+header .header-top {
+  display: block;
 }
 
-/* header .logo {
+header .header-none {
+  display: none;
+  transition: width 3s;
+}
+header .mini-logo {
+  position: absolute;
+  /* max-height: 43px; */
+}
+
+header .logo {
   width: 455px;
   height: 43px;
-} */
+}
+header .logo img {
+  position: relative;
+  left: 20%;
+  bottom: 89%;
+}
 
 header a {
   font-size: 2rem;
@@ -465,6 +477,8 @@ header .menu .wrapper a {
 }
 header .image-wrapper img {
   width: 130px;
+}
+header .logo {
 }
 .menu-nav-left {
   padding-right: 30px;
