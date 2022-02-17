@@ -12,6 +12,8 @@ window.onload = () => {
   handleAccardion();
   handleServiceNav();
   handleDefaultAccardion();
+  //Burger Meun Toggle and ANimation
+  AnimateMenu();
   //Main Slider changing background on hover
   function handleMainSlider() {
     const sliderItems = document.querySelectorAll(".main-slider .swiper-slide");
@@ -128,15 +130,15 @@ window.onload = () => {
   const onScroll = () => {
     // Get scroll value
     const scroll = document.documentElement.scrollTop;
-    // console.log(document.documentElement.scrollTop);
+    console.log(document.documentElement.scrollTop);
     //Manage Navbar and Menus while scrolling
     if (scroll > 100) {
       navbar.classList.add("header-none");
       bottomHeader.classList.add("transform-top");
       hoverMenus.forEach((el) => (el.style.top = "62px"));
-      // console.log(navbar);
+      console.log(navbar);
     } else {
-      // console.log(navbar);
+      console.log(navbar);
       navbar.classList.remove("header-none");
       bottomHeader.classList.remove("transform-top");
       hoverMenus.forEach((el) => (el.style.top = "200px"));
@@ -197,6 +199,15 @@ function handleServiceNav() {
       }
     })
   );
+}
+
+function AnimateMenu() {
+  const burgerMenu = document.querySelector(".burger-menu");
+  const menu = document.querySelector(".mobile-menu");
+  burgerMenu.addEventListener("click", () => {
+    burgerMenu.classList.toggle("activeMenu");
+    menu.classList.toggle("toggleMobileMenu");
+  });
 }
 
 $(document).ready(function () {

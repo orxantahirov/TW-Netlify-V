@@ -411,6 +411,81 @@ header {
   z-index: 999;
   background-color: #fff;
 }
+header .burger-menu {
+  background: #fff;
+  box-shadow: 0 0 10px 5px rgba(237, 237, 237, 0.371);
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+  overflow: hidden;
+}
+header .burger-menu span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary);
+  width: 70%;
+  height: 4px;
+  border-radius: 10px;
+  transition: 0.4s;
+  z-index: 99999;
+}
+header .burger-menu span:nth-child(1) {
+  transform: translate(-70%, -250%);
+  width: 50%;
+}
+header .burger-menu span:nth-child(2) {
+  transform: translate(-85%, 150%);
+  width: 40%;
+}
+header .burger-menu.activeMenu span:nth-child(3) {
+  opacity: 0;
+  transform: translateX(100%);
+}
+header .burger-menu.activeMenu span:nth-child(1) {
+  transform: translate(-50%, 0) rotate(45deg);
+  width: 70%;
+}
+header .burger-menu.activeMenu span:nth-child(2) {
+  transform: translate(-50%, 0) rotate(315deg);
+  width: 70%;
+}
+
+.mobile-menu {
+  z-index: 9999;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  transform: translateX(100%);
+  transition: 0.3s;
+  height: 100%;
+}
+.mobile-menu nav {
+  width: 80%;
+}
+.mobile-menu nav a {
+  width: 100%;
+}
+.mobile-menu .wrapper a {
+  text-align: left !important;
+  font-weight: 500;
+  font-size: 3rem !important;
+}
+.mobile-menu .menu .wrapper {
+  height: 100%;
+}
+.toggleMobileMenu {
+  transform: translateX(0);
+}
 
 header .top-header {
   height: 110px;
@@ -1091,7 +1166,9 @@ main #experience .hires-container .title {
   overflow: hidden;
   transition: 0.3s;
 }
-
+#service-panel .service-card-container {
+  margin-left: 10rem;
+}
 #service-panel .main-card {
   background-image: url("../img/sub-sections/service-card-bg.png");
   background-position: bottom;
