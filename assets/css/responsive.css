@@ -87,6 +87,9 @@
   footer .social-icons {
     order: 0;
   }
+  #service-panel .service-card-container {
+    margin-left: 10rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .mobile {
@@ -100,6 +103,9 @@
   }
   .ml-40 {
     margin-left: 40px !important;
+  }
+  #service-panel .service-card-container {
+    margin-top: 40px;
   }
 }
 

@@ -1091,9 +1091,7 @@ main #experience .hires-container .title {
   overflow: hidden;
   transition: 0.3s;
 }
-#service-panel .service-card-container {
-  margin-left: 10rem;
-}
+
 #service-panel .main-card {
   background-image: url("../img/sub-sections/service-card-bg.png");
   background-position: bottom;

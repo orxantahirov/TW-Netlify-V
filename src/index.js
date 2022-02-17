@@ -128,15 +128,15 @@ window.onload = () => {
   const onScroll = () => {
     // Get scroll value
     const scroll = document.documentElement.scrollTop;
-    console.log(document.documentElement.scrollTop);
+    // console.log(document.documentElement.scrollTop);
     //Manage Navbar and Menus while scrolling
     if (scroll > 100) {
       navbar.classList.add("header-none");
       bottomHeader.classList.add("transform-top");
       hoverMenus.forEach((el) => (el.style.top = "62px"));
-      console.log(navbar);
+      // console.log(navbar);
     } else {
-      console.log(navbar);
+      // console.log(navbar);
       navbar.classList.remove("header-none");
       bottomHeader.classList.remove("transform-top");
       hoverMenus.forEach((el) => (el.style.top = "200px"));
