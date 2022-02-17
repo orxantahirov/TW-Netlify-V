@@ -102,6 +102,7 @@
     margin-left: 40px !important;
   }
 }
+
 /* Large */
 @media screen and (min-width: 992px) {
   html {
@@ -131,6 +132,14 @@
   }
   footer .social-icons {
     font-size: 5rem;
+  }
+}
+@media (max-width: 992px) {
+  .hamburger {
+    position: absolute;
+    right: 25px;
+    bottom: 37%;
+    display: block;
   }
 }
 /* Extra Large  */

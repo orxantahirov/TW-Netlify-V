@@ -478,7 +478,16 @@ header .menu .wrapper a {
 header .image-wrapper img {
   width: 130px;
 }
-header .logo {
+.hamburger {
+  background-color: black;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: 25px;
+  bottom: 37%;
 }
 .menu-nav-left {
   padding-right: 30px;
