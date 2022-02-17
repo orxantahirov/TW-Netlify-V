@@ -243,11 +243,11 @@ $(document).ready(function () {
   });
 });
 
-$(window).on("scroll", function () {
-  if ($(window).scrollTop() > 300) {
-    $(".header-top").addClass("header-none");
-  } else {
-    // $(".header-top").addClass("header-top");
-    $(".header-top").removeClass("header-none");
-  }
-});
+// $(window).on("scroll", function () {
+//   if ($(window).scrollTop() > 300) {
+//     $(".header-top").addClass("header-none");
+//   } else {
+//     // $(".header-top").addClass("header-top");
+//     $(".header-top").removeClass("header-none");
+//   }
+// });
