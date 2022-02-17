@@ -408,23 +408,29 @@ body > * {
 header {
   padding: 20px 0;
   position: relative;
-  position: sticky;
-  top: 0;
-  left: 0;
   z-index: 999;
   background-color: #fff;
 }
 
 header .top-header {
   height: 110px;
+  overflow: hidden;
 }
 header .header-top {
   display: block;
 }
 
 header .header-none {
-  display: none;
-  transition: width 3s;
+  overflow: hidden;
+  visibility: hidden;
+  transform: translateY(-100%);
+}
+.transform-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 header .mini-logo {
   position: absolute;
@@ -458,6 +464,8 @@ header .icon-box i {
 header .bot-header {
   padding: 20px 0;
   border-top: 1px solid lightgray;
+  background: #fff;
+  transition: 0.2s;
 }
 
 header nav a {
@@ -478,7 +486,7 @@ header .menu .wrapper a {
 header .image-wrapper img {
   width: 130px;
 }
-.hamburger {
+/* .hamburger {
   background-color: black;
   border: 0;
   color: #fff;
@@ -488,7 +496,7 @@ header .image-wrapper img {
   position: absolute;
   right: 25px;
   bottom: 37%;
-}
+} */
 .menu-nav-left {
   padding-right: 30px;
   padding-top: 10px;

@@ -121,6 +121,29 @@ window.onload = () => {
       });
     });
   }
+  const navbar = document.querySelector(".top-header");
+  const bottomHeader = document.querySelector(".bot-header");
+  const hoverMenus = document.querySelectorAll(".menu");
+  // OnScroll event handler
+  const onScroll = () => {
+    // Get scroll value
+    const scroll = document.documentElement.scrollTop;
+    console.log(document.documentElement.scrollTop);
+    //Manage Navbar and Menus while scrolling
+    if (scroll > 100) {
+      navbar.classList.add("header-none");
+      bottomHeader.classList.add("transform-top");
+      hoverMenus.forEach((el) => (el.style.top = "62px"));
+      console.log(navbar);
+    } else {
+      console.log(navbar);
+      navbar.classList.remove("header-none");
+      bottomHeader.classList.remove("transform-top");
+      hoverMenus.forEach((el) => (el.style.top = "200px"));
+    }
+  };
+
+  window.addEventListener("scroll", onScroll);
 };
 //Default Accardion
 function handleDefaultAccardion() {
