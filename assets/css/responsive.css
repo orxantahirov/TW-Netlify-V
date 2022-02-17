@@ -104,6 +104,9 @@
   .ml-40 {
     margin-left: 40px !important;
   }
+  header .menu .wrapper a {
+    font-size: 2rem !important;
+  }
 }
 
 /* Large */
@@ -146,6 +149,14 @@
     right: 25px;
     bottom: 37%;
     display: block;
+  }
+  .mobile-menu nav {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .mobile-menu nav a {
+    padding-top: 30px;
   }
 }
 /* Extra Large  */
