@@ -277,6 +277,10 @@ $(document).ready(function () {
   });
 });
 
+$(".showSearch").click(function () {
+  $(".toggleInput").toggle(400);
+});
+
 // $(window).on("scroll", function () {
 //   if ($(window).scrollTop() > 300) {
 //     $(".header-top").addClass("header-none");
