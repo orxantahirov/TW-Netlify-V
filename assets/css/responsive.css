@@ -74,6 +74,10 @@
     order: -1;
     font-size: 4rem;
   }
+  .breadcrumb--text {
+    font-size: 2.5rem;
+    padding-top: 30px;
+  }
 }
 /* Medium */
 @media screen and (min-width: 576px) {
@@ -106,6 +110,16 @@
   }
   header .menu .wrapper a {
     font-size: 2rem !important;
+  }
+  .side-card-social {
+    margin: 0 !important;
+    flex-basis: 100%;
+  }
+  #service-panel .service-card-container {
+    margin-left: 0 !important;
+  }
+  .career-social {
+    margin-top: 30px;
   }
 }
 
@@ -258,7 +272,7 @@
   }
 }
 @media screen and (min-width: 280px) and (max-width: 993px) {
-  .breadcrumb--title {
+  /* .breadcrumb--title {
     top: 150px;
-  }
+  } */
 }
