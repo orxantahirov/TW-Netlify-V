@@ -121,6 +121,15 @@
   .career-social {
     margin-top: 30px;
   }
+  .mobile-position {
+    flex-direction: column;
+  }
+  .mobile-position {
+    font-size: 2.6rem;
+  }
+  .mobile-position .btn-cont {
+    margin-top: 20px;
+  }
 }
 
 /* Large */
