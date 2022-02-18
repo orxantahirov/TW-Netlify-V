@@ -88,6 +88,9 @@ body > * {
 .mt-60 {
   margin-top: 60px;
 }
+.mb-70 {
+  margin-bottom: 70px;
+}
 /* Setting Default Font -- End */
 
 /* Colors -- Start */
@@ -406,6 +409,7 @@ body > * {
 /*Styling Header -- Start */
 
 header {
+  padding: 20px 0;
   position: relative;
   z-index: 999;
   background-color: #fff;
@@ -456,11 +460,16 @@ header .burger-menu.activeMenu span:nth-child(2) {
 }
 .search-input {
   width: 100%;
-  border-color: #1db954;
   outline: none;
   padding: 5px;
-  /* border: none; */
-  background-color: #eaf0e887;
+  background-color: #fff;
+  border: none;
+}
+.search_2 {
+  flex-direction: column;
+}
+.search_2 a {
+  border-left: none !important;
 }
 
 .mobile-menu {
@@ -489,6 +498,17 @@ header .burger-menu.activeMenu span:nth-child(2) {
 }
 .mobile-menu .menu .wrapper {
   height: 100%;
+}
+.mobile-menu .search {
+  margin: auto;
+  margin-top: 50px;
+}
+.search-input::placeholder {
+  color: #1db954;
+}
+.slogan-position {
+  text-align: center;
+  margin-top: 70px;
 }
 .toggleMobileMenu {
   transform: translateX(0);
@@ -536,7 +556,7 @@ header a:hover {
   text-decoration: underline;
 }
 header .icon-box > * {
-  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
   padding: 0 15px;
 }
 header .icon-box i {
