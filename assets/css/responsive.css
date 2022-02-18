@@ -130,6 +130,9 @@
   .mobile-position .btn-cont {
     margin-top: 20px;
   }
+  #careers {
+    padding: 0 !important;
+  }
 }
 
 /* Large */
