@@ -891,14 +891,16 @@ main #experience .exp-cont .title {
   letter-spacing: 3px;
   color: #fff;
   text-align: start;
+  margin-left: 10px;
 }
 main #experience .exp-cont .info {
   font-size: 5rem;
   text-align: start;
   font-weight: 600;
+  margin-left: 10px;
 }
 main #experience .exp-cont .text {
-  margin: 30px 0;
+  margin: 30px 0px 30px 10px;
   font-size: 1.7rem;
   text-align: start;
 }
@@ -916,6 +918,7 @@ main #experience .hires-container {
 }
 main #experience .hires-container .title {
   color: #000;
+  margin-left: 10px;
 }
 .extended-search-bar__container {
   display: flex;
