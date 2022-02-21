@@ -552,7 +552,7 @@ header .logo {
 header .logo img {
   position: relative;
   left: 20%;
-  bottom: 89%;
+  /* bottom: 89%; */
 }
 
 header a {
