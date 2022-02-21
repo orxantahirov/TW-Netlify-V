@@ -194,10 +194,10 @@
 /* Extra Large  */
 @media screen and (min-width: 1200px) {
   #map-location .map-contact-info {
-    font-size: 30px;
+    font-size: 23px;
   }
   #map-location .map-text {
-    font-size: 30px;
+    font-size: 23px;
   }
   #form-contact .input-group {
     width: 350px;
