@@ -784,6 +784,7 @@ main #info-firm .firm-image .text-wrapper {
   bottom: 98px;
   z-index: 5;
   color: #001219;
+  text-align: center;
 }
 main #info-firm .firm-image .firm-title {
   position: absolute;
