@@ -786,7 +786,7 @@ main #info-firm .firm-image > p {
 }
 main #info-firm .firm-image .text-wrapper {
   position: absolute;
-  right: 208px;
+  right: 314px !important;
   bottom: 98px;
   z-index: 5;
   color: #001219;
