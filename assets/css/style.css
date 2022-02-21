@@ -88,6 +88,12 @@ body > * {
 .mt-60 {
   margin-top: 60px;
 }
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
 .mb-70 {
   margin-bottom: 70px;
 }
