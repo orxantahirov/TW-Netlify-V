@@ -789,7 +789,7 @@ main #info-firm .firm-image .text-wrapper {
 main #info-firm .firm-image .firm-title {
   position: absolute;
   top: 236px;
-  right: 387px;
+  right: 462px;
   color: #001219;
 }
 main #info-firm .firm-image .text-wrapper span {
@@ -799,7 +799,7 @@ main #info-firm .firm-image .text-wrapper span {
   color: inherit;
 }
 main #info-firm .firm-image .text-wrapper a {
-  font-size: 5rem;
+  font-size: 3.4rem;
   display: block;
   z-index: 5;
   color: inherit;

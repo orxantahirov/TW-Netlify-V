@@ -26,7 +26,7 @@
     font-size: 4.5rem;
   }
   .pos-rel .swiper-title h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .pos-rel .swiper-title p {
     font-size: 2rem;
@@ -169,7 +169,7 @@
     font-size: 5rem;
   }
   main #info-firm .firm-image .text-wrapper {
-    right: 90px !important;
+    right: 208px !important;
   }
 }
 @media (max-width: 992px) {
@@ -215,7 +215,7 @@
     padding-left: 20px;
   }
   .pos-rel .swiper-title h1 {
-    font-size: 6.5rem;
+    font-size: 4.8rem;
   }
   .pos-rel .swiper-title p {
     font-size: 3rem;
@@ -278,7 +278,7 @@
   main #info-firm .firm-image .firm-title {
     position: absolute;
     top: 236px;
-    right: 391px;
+    right: 361px;
     color: #001219;
   }
   main #info-firm .firm-image .text-wrapper {
