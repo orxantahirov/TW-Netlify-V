@@ -809,6 +809,7 @@ main #info-firm .firm-image .text-wrapper a {
   display: block;
   z-index: 5;
   color: inherit;
+  text-align: left;
 }
 main #info-firm .firm-image .text-wrapper a:hover {
   text-decoration: underline;
@@ -1492,7 +1493,7 @@ main #experience .hires-container .title {
 #map-location .map-loc-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 41px;
 
   color: #1d314b;

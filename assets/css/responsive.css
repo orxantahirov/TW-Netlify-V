@@ -65,10 +65,10 @@
     width: 100%;
   }
   #map-location .map-text {
-    font-size: 24px;
+    font-size: 18px;
   }
   #map-location .map-contact-info {
-    font-size: 24px;
+    font-size: 18px;
   }
   footer .social-icons {
     order: -1;
@@ -169,7 +169,7 @@
     font-size: 5rem;
   }
   main #info-firm .firm-image .text-wrapper {
-    right: 208px !important;
+    right: 100px !important;
   }
 }
 @media (max-width: 992px) {
