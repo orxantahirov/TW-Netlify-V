@@ -589,9 +589,7 @@ header nav a {
 header .menu .wrapper {
   padding: 68px 80px 30px 0;
 }
-input[type="checkbox"] {
-  background-color: red;
-}
+
 header .menu .wrapper a {
   margin-bottom: 15px;
   font-size: 1.7rem;
@@ -600,17 +598,7 @@ header .menu .wrapper a {
 header .image-wrapper img {
   width: 130px;
 }
-/* .hamburger {
-  background-color: black;
-  border: 0;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-  display: none;
-  position: absolute;
-  right: 25px;
-  bottom: 37%;
-} */
+
 .menu-nav-left {
   padding-right: 30px;
   padding-top: 10px;
