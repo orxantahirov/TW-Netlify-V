@@ -97,6 +97,12 @@ body > * {
 .mb-70 {
   margin-bottom: 70px;
 }
+.f-direction-column {
+  flex-direction: column;
+}
+.f-direction-row {
+  flex-direction: row;
+}
 /* Setting Default Font -- End */
 
 /* Colors -- Start */
