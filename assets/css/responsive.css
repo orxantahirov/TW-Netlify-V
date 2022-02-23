@@ -73,6 +73,9 @@
     font-size: 2.5rem;
     padding-top: 30px;
   }
+  #service-panel .main-card {
+    height: 177px;
+  }
 }
 /* Medium */
 @media screen and (min-width: 576px) {
@@ -119,7 +122,7 @@
     font-size: 30px;
   }
   .ml-40 {
-    margin-left: 40px !important;
+    margin: 0 20px;
   }
   header .menu .wrapper a {
     font-size: 2rem !important;
@@ -188,6 +191,9 @@
   main #info-firm .firm-image .text-wrapper {
     right: 167px;
   }
+  #service-panel .main-card {
+    height: 280px;
+  }
 }
 @media (max-width: 992px) {
   .hamburger {
@@ -212,6 +218,21 @@
   }
   #form-contact textarea {
     width: 100%;
+  }
+  .h-100v {
+    height: 100%;
+  }
+  main #experience .exp-cont .title {
+    margin-top: 30px;
+  }
+  main #inside-breadcrumb {
+    height: 400px;
+  }
+  .textarea-label {
+    left: 8px;
+  }
+  .pl-80 {
+    padding-left: 10px;
   }
 }
 @media screen and (max-width: 1100px) {

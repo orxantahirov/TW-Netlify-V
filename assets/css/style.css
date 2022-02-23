@@ -97,6 +97,9 @@ body > * {
 .mb-70 {
   margin-bottom: 70px;
 }
+.mobile-30-mt {
+  margin-top: 30px;
+}
 
 /* Setting Default Font -- End */
 
@@ -680,7 +683,6 @@ main .main-slider .swiper-slide.swiper-slide-active .text-wrapper .info {
 }
 main #card-slider {
   background: #f5f3f2;
-  padding: 100px 0;
 }
 main .article-swiper {
   margin: 10rem 0;
@@ -1200,7 +1202,6 @@ main #experience .hires-container .title {
   background-size: contain;
   background-repeat: no-repeat;
   height: 400px;
-  background-color: #fff;
   padding: 10px;
   flex-basis: 100%;
 }
