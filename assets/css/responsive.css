@@ -87,6 +87,9 @@
   header .image-wrapper img {
     width: 95px;
   }
+  header .top-header {
+    height: 60px;
+  }
 }
 
 /* Small - Medium */
