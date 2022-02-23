@@ -82,6 +82,14 @@
 /* Medium */
 @media screen and (min-width: 576px) {
 }
+@media screen and (max-width: 576px) {
+  .mobile-fs-2 {
+    font-size: 2rem;
+  }
+  .f-direction-column {
+    flex-direction: column;
+  }
+}
 
 /* Small - Medium */
 @media screen and (min-width: 768px) {
@@ -137,8 +145,9 @@
   #careers {
     padding: 0 !important;
   }
-  .f-direction-column {
-    flex-direction: column;
+  .mobile-acc {
+    margin: 45px 0;
+    text-align: center;
   }
 }
 
@@ -196,6 +205,9 @@
   }
   main #info-firm .firm-image .text-wrapper a {
     font-size: 3rem;
+  }
+  .related-articles {
+    padding-left: 0;
   }
 }
 /* Extra Large  */
