@@ -26,7 +26,7 @@
     font-size: 4.5rem;
   }
   .pos-rel .swiper-title h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .pos-rel .swiper-title p {
     font-size: 2rem;
@@ -37,14 +37,9 @@
   main #card-slider .swiper-custom-button-next {
     left: 61%;
   }
-  main #info-firm .firm-image .text-wrapper {
-    position: static;
-  }
-  main #info-firm .firm-image .firm-title {
-    position: static;
-  }
+
   .firm-image {
-    height: 70vh;
+    height: 100vh;
   }
   main #info-firm .link-item {
     padding: 20px 0 20px 20px;
@@ -179,13 +174,13 @@
     color: var(--primary);
   }
   #form-contact .input-group {
-    width: 300px;
+    width: 200px;
   }
   footer .social-icons {
     font-size: 5rem;
   }
   main #info-firm .firm-image .text-wrapper {
-    right: 314px !important;
+    right: 167px;
   }
 }
 @media (max-width: 992px) {
@@ -210,16 +205,25 @@
     padding-left: 0;
   }
 }
+@media screen and (max-width: 1100px) {
+  main #info-firm .firm-image .firm-title {
+    position: static;
+  }
+  main #info-firm .firm-image .text-wrapper {
+    position: static;
+  }
+}
 /* Extra Large  */
 @media screen and (min-width: 1200px) {
   #map-location .map-contact-info {
-    font-size: 23px;
+    font-size: 18px;
   }
   #map-location .map-text {
-    font-size: 23px;
+    font-size: 18px;
   }
   #form-contact .input-group {
-    width: 350px;
+    width: 220px;
+    height: 42px;
   }
   html {
     font-size: 10px;
@@ -257,12 +261,12 @@
   main #info-firm .firm-image .firm-title {
     position: absolute;
     top: 236px;
-    right: 246px;
+    right: 220px;
     color: #001219;
   }
   main #info-firm .firm-image .text-wrapper {
     position: absolute;
-    right: 70px;
+    right: 154px;
     bottom: 98px;
     z-index: 5;
     color: #001219;
@@ -271,7 +275,7 @@
 /* XX Large  */
 @media screen and (min-width: 1400px) {
   #form-contact .input-group {
-    width: 420px;
+    width: 220px;
   }
   main #news {
     padding: 100px;
@@ -290,23 +294,31 @@
     color: #001219;
   }
 }
+@media screen and (min-width: 1400px) {
+  /* .mobile-mt {
+    margin-top: 54px;
+  } */
+}
 @media screen and (min-width: 1500px) {
   main #news {
     padding: 100px;
   }
   main #info-firm .firm-image .firm-title {
     position: absolute;
-    top: 236px;
+    top: 150px;
     right: 361px;
     color: #001219;
   }
   main #info-firm .firm-image .text-wrapper {
     position: absolute;
-    right: 208px;
+    right: 283px;
     bottom: 98px;
     z-index: 5;
     color: #001219;
   }
+  /* .mobile-mt {
+    margin-top: 0;
+  } */
 }
 @media screen and (min-width: 280px) and (max-width: 993px) {
   /* .breadcrumb--title {

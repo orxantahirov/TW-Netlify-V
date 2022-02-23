@@ -334,7 +334,6 @@ body > * {
 .main-card {
   display: flex;
   flex-direction: column;
-  width: 298px;
   cursor: pointer;
   height: 410px;
   transition: 0.5s;
@@ -745,9 +744,8 @@ main #card-slider .swiper-custom-button-prev {
 
 main #info-firm .firm-image {
   background-image: url("../img/location.jpg");
-  background-color: rgb(213 219 201 / 75%);
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -775,16 +773,16 @@ main #info-firm .firm-image > p {
 }
 main #info-firm .firm-image .text-wrapper {
   position: absolute;
-  right: 314px !important;
-  bottom: 98px;
+  right: 314px;
+  bottom: 90px;
   z-index: 5;
   color: #001219;
   text-align: center;
 }
 main #info-firm .firm-image .firm-title {
   position: absolute;
-  top: 236px;
-  right: 462px;
+  top: 140px;
+  right: 218px;
   color: #001219;
 }
 main #info-firm .firm-image .text-wrapper span {
@@ -849,7 +847,7 @@ main #news #viewAll:hover .fa-arrow-right {
 }
 
 main #inside-breadcrumb {
-  background-image: url("../img/footer-breadcrumb.webp");
+  background-image: url("../img/team.jpg");
   background-color: rgba(70, 70, 70, 0.39);
   background-blend-mode: multiply;
   background-size: cover;
@@ -891,7 +889,7 @@ main #experience .exp-cont .title {
   margin-left: 10px;
 }
 main #experience .exp-cont .info {
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: start;
   font-weight: 600;
   margin-left: 10px;
@@ -1054,7 +1052,7 @@ main #experience .hires-container .title {
   text-transform: uppercase;
 }
 .personel-card-info {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   line-height: 3.8rem;
   font-weight: 600;
 }
@@ -1201,14 +1199,14 @@ main #experience .hires-container .title {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 393px;
+  height: 400px;
   background-color: #fff;
   padding: 10px;
   flex-basis: 100%;
 }
 #service-panel .side-card {
   margin-left: auto;
-  height: 393px;
+  height: 400px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -1407,9 +1405,9 @@ main #experience .hires-container .title {
   font-family: "Manrope", sans-serif;
 }
 #form-contact textarea {
-  width: 100%;
+  width: 60%;
   resize: none;
-  height: 208px;
+  height: 140px;
   margin: 48px 0;
   padding: 40px 30px 40px 30px;
   font-size: 16px;
@@ -1421,7 +1419,7 @@ main #experience .hires-container .title {
 .textarea-label {
   position: absolute;
   top: 35px;
-  left: 20px;
+  left: 244px;
   background: #fff;
   padding: 0 9px;
   font-style: normal;
@@ -1435,7 +1433,7 @@ main #experience .hires-container .title {
 }
 #form-contact .input-group {
   width: 400px;
-  height: 59px;
+  height: 48px;
   border: 1px solid #424242;
   border-radius: 10px;
   position: relative;
