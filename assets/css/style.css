@@ -430,7 +430,7 @@ header .burger-menu {
   width: 50px;
   height: 50px;
   position: absolute;
-  top: 40px;
+  top: 20px;
   right: 40px;
   cursor: pointer;
   overflow: hidden;
@@ -474,11 +474,38 @@ header .burger-menu.activeMenu span:nth-child(2) {
   background-color: #fff;
   border: none;
 }
+.search-input_2 {
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #1db954;
+  width: 263px;
+  height: 30px;
+}
+.search-input_2::placeholder {
+  font-size: 18px;
+  color: #1db954;
+}
 .search_2 {
   flex-direction: column;
 }
 .search_2 a {
   border-left: none !important;
+}
+#membership {
+  border: 1px solid #1db954;
+  background-color: #1db954;
+  color: #fff;
+  width: 75px;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 32px;
+  outline: none;
+}
+#membership option {
+  border: 1px solid #1db954;
 }
 
 .mobile-menu {
@@ -685,7 +712,7 @@ main #card-slider {
   background: #f5f3f2;
 }
 main .article-swiper {
-  margin: 10rem 0;
+  margin: 6rem 0;
 }
 
 main .article-swiper .main-card {

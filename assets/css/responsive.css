@@ -157,7 +157,7 @@
     padding: 10px;
   }
   main #info-firm .firm-image {
-    height: 400px;
+    height: 370px;
   }
   #info-firm {
     margin-top: 30px;
@@ -223,7 +223,7 @@
   .mobile-menu nav {
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
   }
   .mobile-menu nav a {
     padding-top: 30px;
@@ -254,6 +254,9 @@
   }
   footer .footer-text {
     margin-top: 40px;
+  }
+  #breadcrumb-about {
+    height: 500px;
   }
 }
 
