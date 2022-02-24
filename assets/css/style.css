@@ -975,7 +975,7 @@ main #experience .hires-container .title {
 }
 .page-location {
   position: absolute;
-  /* top: 250px; */
+  top: 50px;
   max-width: 248px;
   gap: 30px;
   padding: 10px 15px;
@@ -1408,7 +1408,7 @@ main #experience .hires-container .title {
 #form-contact textarea {
   width: 60%;
   resize: none;
-  height: 140px;
+  height: 48px;
   margin: 48px 0;
   padding: 40px 30px 40px 30px;
   font-size: 16px;
@@ -1416,6 +1416,7 @@ main #experience .hires-container .title {
   border-radius: 10px;
   outline: none;
   background: #fff;
+  overflow: hidden;
 }
 .textarea-label {
   position: absolute;
@@ -1434,7 +1435,7 @@ main #experience .hires-container .title {
 }
 #form-contact .input-group {
   width: 400px;
-  height: 48px;
+  height: 37px;
   border: 1px solid #424242;
   border-radius: 10px;
   position: relative;
