@@ -1402,7 +1402,43 @@ main #experience .hires-container .title {
   color: #1d314b;
   font-weight: 700;
 }
-#form-contact {
+.form-control {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #1db954;
+  outline: none;
+  height: 40px;
+  padding: 10px;
+}
+#form-contact textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #1db954;
+  padding: 10px;
+}
+#form-contact label {
+  font-size: 18px;
+  background: #fff;
+  position: absolute;
+  top: -12px;
+  left: 21px;
+}
+#form-contact .submit-btn {
+  background: #57b660;
+  border-radius: 85px;
+  width: 283.2px;
+  height: 70.8px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+/* #form-contact {
   font-family: "Manrope", sans-serif;
 }
 #form-contact textarea {
@@ -1461,24 +1497,10 @@ main #experience .hires-container .title {
   transform: translateY(-40%);
   font-size: 20px;
 }
-#form-contact .submit-btn {
-  background: #57b660;
-  border-radius: 85px;
-  width: 283.2px;
-  height: 70.8px;
-  color: #fff;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 30px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: 0.3s ease-out;
-}
+
 #form-contact .submit-btn:hover {
   background-color: var(--secondary);
-}
+} */
 #map-location .map-loc-title {
   font-style: normal;
   font-weight: bold;
@@ -1571,7 +1593,7 @@ main #experience .hires-container .title {
 /* Styling Footer -- Start  */
 
 footer {
-  padding: 100px 0;
+  padding: 30px 0;
 }
 footer .link-wrapper {
   padding: 10px;
