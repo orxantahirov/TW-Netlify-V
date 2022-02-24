@@ -110,6 +110,9 @@
   .f-direction-row {
     flex-direction: row;
   }
+  main #info-firm .firm-image .firm-title {
+    margin-right: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
   .mobile {
@@ -171,6 +174,9 @@
   .mt-input-mobile {
     margin: 30px 0;
   }
+  main #info-firm .firm-image .firm-title {
+    margin-right: 18px;
+  }
 }
 
 /* Large */
@@ -211,6 +217,9 @@
   }
   #service-panel .main-card {
     height: 280px;
+  }
+  main #info-firm .firm-image .firm-title {
+    margin-right: 62px;
   }
 }
 @media (max-width: 992px) {
@@ -273,6 +282,12 @@
     position: static;
   }
 }
+@media (max-width: 1200px) and (min-width: 1100px) {
+  main #info-firm .firm-image .firm-title {
+    margin-right: 11px;
+  }
+}
+
 /* Extra Large  */
 @media screen and (min-width: 1200px) {
   #map-location .map-contact-info {
@@ -321,7 +336,7 @@
   main #info-firm .firm-image .firm-title {
     position: absolute;
     top: 236px;
-    right: 220px;
+    right: 157px;
     color: #001219;
   }
   main #info-firm .firm-image .text-wrapper {
@@ -358,6 +373,9 @@
   /* .mobile-mt {
     margin-top: 54px;
   } */
+  main #info-firm .firm-image .firm-title {
+    right: 175px;
+  }
 }
 @media screen and (min-width: 1500px) {
   main #news {
@@ -366,7 +384,7 @@
   main #info-firm .firm-image .firm-title {
     position: absolute;
     top: 150px;
-    right: 361px;
+    right: 286px;
     color: #001219;
   }
   main #info-firm .firm-image .text-wrapper {
