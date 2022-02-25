@@ -85,6 +85,9 @@ body > * {
 .mt-44 {
   margin-top: 44px;
 }
+.mt-0 {
+  margin-top: 0;
+}
 .mt-60 {
   margin-top: 60px;
 }
