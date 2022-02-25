@@ -91,6 +91,16 @@
     font-size: 3rem !important;
   }
 }
+@media (min-width: 340px) and (max-width: 360px) {
+  main #experience .grad-container {
+    margin-right: 126px !important;
+  }
+}
+@media (min-width: 361px) and (max-width: 375px) {
+  main #experience .grad-container {
+    margin-right: 146px !important;
+  }
+}
 @media (max-width: 414px) and (min-width: 375px) {
   main #experience .grad-container {
     margin-right: 158px !important;
