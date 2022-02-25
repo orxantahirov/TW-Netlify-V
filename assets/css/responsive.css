@@ -77,6 +77,34 @@
     height: 177px;
   }
 }
+@media (min-width: 280px) and (max-width: 319px) {
+  .pos-rel .swiper-title h1 {
+    font-size: 3.2rem !important;
+  }
+  main #experience .grad-container {
+    margin-right: 55px !important;
+  }
+  main #experience .hires-container {
+    margin-right: 60px !important;
+  }
+  main #inside-breadcrumb .company-info .company--name {
+    font-size: 3rem !important;
+  }
+}
+@media (max-width: 414px) and (min-width: 375px) {
+  main #experience .grad-container {
+    margin-right: 158px !important;
+  }
+  main #experience .hires-container {
+    margin-right: 167px !important;
+  }
+}
+@media (max-width: 450px) and (min-width: 414px) {
+  main #experience .grad-container {
+    margin-right: 191px !important;
+  }
+}
+
 /* Medium */
 @media screen and (min-width: 576px) {
 }
