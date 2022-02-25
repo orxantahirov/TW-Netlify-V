@@ -166,7 +166,7 @@
     margin-top: 30px;
   }
   main #info-firm .link-item .link-text a {
-    padding: 15px;
+    padding: 0;
   }
   footer .accardion .accardion-title p {
     font-size: 2.5rem;
@@ -176,6 +176,12 @@
   }
   main #info-firm .firm-image .firm-title {
     margin-right: 18px;
+  }
+  main #info-firm .link-item .link-title {
+    margin-left: 3px;
+  }
+  main .article-swiper {
+    margin: 1rem 0 5rem 0;
   }
 }
 
@@ -266,6 +272,12 @@
   }
   #breadcrumb-about {
     height: 500px;
+  }
+  main #experience .grad-container {
+    margin-right: 107px;
+  }
+  main #experience .hires-container {
+    margin-right: 107px;
   }
 }
 

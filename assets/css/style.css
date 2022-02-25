@@ -712,7 +712,7 @@ main #card-slider {
   background: #f5f3f2;
 }
 main .article-swiper {
-  margin: 1rem 0 5rem 0;
+  margin: 10rem;
 }
 
 main .article-swiper .main-card {
@@ -856,9 +856,9 @@ main #info-firm .link-item .link-text a {
   padding-bottom: 3px;
   transition: 0.2s;
 }
-main #info-firm .link-item:hover a {
+/* main #info-firm .link-item:hover a {
   border-bottom: 2px solid #fff;
-}
+} */
 
 main #news {
   padding: 100px;
@@ -1032,7 +1032,6 @@ main #experience .hires-container .title {
 .breadcrumb--text {
   font-size: 8rem;
   font-weight: 600;
-  letter-spacing: 5px;
   /* padding-top: 280px; */
 }
 .breadcrumb--nav {
@@ -1223,11 +1222,11 @@ main #experience .hires-container .title {
   margin-left: 10rem;
 }
 #service-panel .main-card {
-  background-image: url("../img/xidmetler.jpeg");
+  background-image: url("../img/banner-services.jpeg");
   background-position: bottom;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 500px;
   padding: 10px;
   flex-basis: 100%;
 }
@@ -1441,6 +1440,8 @@ main #experience .hires-container .title {
   outline: none;
   border: 1px solid #1db954;
   padding: 10px;
+  border-radius: 10px;
+  resize: none;
 }
 #form-contact label {
   font-size: 18px;
