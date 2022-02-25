@@ -70,12 +70,12 @@ body > * {
 .fw-700 {
   font-weight: 700;
 }
-.ls-2 {
+/* .ls-2 {
   letter-spacing: 2px;
 }
 .ls-3 {
   letter-spacing: 3px;
-}
+} */
 .lh-30 {
   line-height: 3rem;
 }
@@ -99,6 +99,9 @@ body > * {
 }
 .mobile-30-mt {
   margin-top: 30px;
+}
+.mt-100 {
+  margin-top: 100px;
 }
 
 /* Setting Default Font -- End */
@@ -377,6 +380,7 @@ body > * {
 .main-card .card-info {
   font-size: 1.7rem;
   opacity: 0;
+  color: #222;
   transition: 0.3s;
 }
 .main-card img {
@@ -503,6 +507,18 @@ header .burger-menu.activeMenu span:nth-child(2) {
   border-radius: 10px;
   height: 32px;
   outline: none;
+  cursor: pointer;
+}
+#membership-desktop {
+  border: 1px solid #1db954;
+  background-color: #1db954;
+  color: #fff;
+  width: 75px;
+  border-radius: 10px;
+  height: 32px;
+  outline: none;
+  margin: 0 10px;
+  cursor: pointer;
 }
 #membership option {
   border: 1px solid #1db954;
